@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : 0,
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "725592E7-3CE0-4B6B-BEAC-343F798B325E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : "CinderEight\/",
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "glNextExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "glNextExample\/xcode\/glNextExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cinder\/Cinder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4B458D0D225ED63FAE0155615993B7D3ECE020"
+    }
+  ]
+}

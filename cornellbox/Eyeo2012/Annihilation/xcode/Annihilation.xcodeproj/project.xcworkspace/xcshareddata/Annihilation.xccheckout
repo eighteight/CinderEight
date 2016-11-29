@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C89DA6A4-9334-4785-87AF-36D75D55A982</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Annihilation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29EEE592-D402-477E-AC41-C5BE66BB279E</key>
+		<string>https://github.com/eighteight/CinderEight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cornellbox/Eyeo2012/Annihilation/xcode/Annihilation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29EEE592-D402-477E-AC41-C5BE66BB279E</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eighteight/CinderEight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29EEE592-D402-477E-AC41-C5BE66BB279E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29EEE592-D402-477E-AC41-C5BE66BB279E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CinderEight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

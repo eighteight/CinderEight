@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FB1A5DFD-16C2-41FB-B828-98B011FB19DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SquareGeomShader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3CB8F21D-D675-4E9E-876F-30B7638D2D35</key>
+		<string>https://github.com/eighteight/CinderEight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SquareGeomShader/xcode/SquareGeomShader.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3CB8F21D-D675-4E9E-876F-30B7638D2D35</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eighteight/CinderEight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3CB8F21D-D675-4E9E-876F-30B7638D2D35</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3CB8F21D-D675-4E9E-876F-30B7638D2D35</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CinderEight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

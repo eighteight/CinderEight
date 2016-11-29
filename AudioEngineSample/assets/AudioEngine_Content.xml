@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<AudioEngineContent>
+	<Sounds>
+		<Sound id="bd" filename="808BD_T1D5_Tape.wav"></Sound>
+		<Sound id="sd" filename="808SD_1B_Tape.wav"></Sound>
+	</Sounds>
+</AudioEngineContent>

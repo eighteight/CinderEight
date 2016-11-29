@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56EA5874-3F4C-42AD-BDA4-FC00241A0EA4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TuioCircle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>189E821D-E37C-49B1-8FA9-2B4A25F6B76A</key>
+		<string>https://github.com/eighteight/CinderEight.git</string>
+		<key>1D689815-6D79-485C-B34E-DB8C0316DA68</key>
+		<string>https://github.com/cinder/Cinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CinderEight/TuioCircle/xcode/TuioCircle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>189E821D-E37C-49B1-8FA9-2B4A25F6B76A</key>
+		<string>../../../..</string>
+		<key>1D689815-6D79-485C-B34E-DB8C0316DA68</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eighteight/CinderEight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1D689815-6D79-485C-B34E-DB8C0316DA68</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D689815-6D79-485C-B34E-DB8C0316DA68</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cinder</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>189E821D-E37C-49B1-8FA9-2B4A25F6B76A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CinderEight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

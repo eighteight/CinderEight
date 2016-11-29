@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AudioEngineSettings>
+	<assetspath>"..\\assets\\"</assetspath>
+	<audio>
+		<playback>
+			<device id="3" name="MOTU" playerid="1" playerposx="55" playerposy="0" playerposz = "0" playerlookatx="0" playerlookaty="0" playerlookatz="1"></device>
+		</playback>
+		<recording>
+			<device id="0" name="" ></device>
+		</recording>
+        <midi>
+        </midi>
+	</audio>
+</AudioEngineSettings>

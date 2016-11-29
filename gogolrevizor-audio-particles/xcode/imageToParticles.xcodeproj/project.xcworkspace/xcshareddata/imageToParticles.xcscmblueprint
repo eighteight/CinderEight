@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++DEC63D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++4D6526F" : 0,
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++DEC63D1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CBAEB331-967B-4ED8-9D2B-196DF0BCA7B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++4D6526F" : "blocks\/Cinder-Syphon0.8\/",
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++DEC63D1" : "CinderEight\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "imageToParticles",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "gogolrevizor-audio-particles\/xcode\/imageToParticles.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++DEC63D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/Cinder-Syphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++4D6526F"
+    }
+  ]
+}

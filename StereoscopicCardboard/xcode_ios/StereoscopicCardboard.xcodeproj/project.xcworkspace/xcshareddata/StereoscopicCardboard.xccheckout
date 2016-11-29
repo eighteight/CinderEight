@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD93B653-244A-40FB-96D7-16048B135115</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StereoscopicCardboard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07</key>
+		<string>https://github.com/eighteight/CinderEight.git</string>
+		<key>AD4B458D0D225ED63FAE0155615993B7D3ECE020</key>
+		<string>git://github.com/cinder/Cinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StereoscopicCardboard/xcode_ios/StereoscopicCardboard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07</key>
+		<string>../../../..</string>
+		<key>AD4B458D0D225ED63FAE0155615993B7D3ECE020</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eighteight/CinderEight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD4B458D0D225ED63FAE0155615993B7D3ECE020</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CinderEight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

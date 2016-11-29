@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720219952D00008149E2 /* AVFoundation.framework */; };
+		006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720319952D00008149E2 /* CoreMedia.framework */; };
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		323223A4F325460FB40D95F3 /* AppScreenSaver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB38A4F4C7F14FB79A472686 /* AppScreenSaver.cpp */; };
+		356418865DEF4B039BB274E9 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9518778C33094824AEE40C5D /* ScreenSaver.framework */; };
+		47AC244FBC464C58BF53B1BC /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF88C2F86B845E6840BF96C /* thumbnail.png */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		537C8FD558304C7A8E15A814 /* UrlImplCocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1F3D55BA575458396F312A3 /* UrlImplCocoa.mm */; };
+		8466C0BCA91E4EA98A7E07FC /* CinderView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 652ADD4A883A4D509ACC1113 /* CinderView.mm */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		90DD5B8CDFA24779A350ECB2 /* AppImplCocoaScreenSaver.mm in Sources */ = {isa = PBXBuildFile; fileRef = F0F56A7BC30043E59C783F3F /* AppImplCocoaScreenSaver.mm */; };
+		9E1748D43B6849FF8054E774 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A513456F93447EB135C05B /* thumbnail@2x.png */; };
+		AFA696FC1A625CCE00D93A3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA696FB1A625CCE00D93A3F /* Images.xcassets */; };
+		AFA696FF1A625CCE00D93A3F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA696FD1A625CCE00D93A3F /* MainMenu.xib */; };
+		AFA697131A625E1400D93A3F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720219952D00008149E2 /* AVFoundation.framework */; };
+		AFA697141A625E2400D93A3F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720319952D00008149E2 /* CoreMedia.framework */; };
+		AFA697191A625E9100D93A3F /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		AFA6971A1A625EC300D93A3F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		AFA6971E1A625FE800D93A3F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA6971D1A625FE800D93A3F /* OpenGL.framework */; };
+		AFA6971F1A62600400D93A3F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		AFA697211A62602D00D93A3F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA697201A62602D00D93A3F /* Carbon.framework */; };
+		AFA697221A62604900D93A3F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		AFA697241A62F4EE00D93A3F /* LiveStreamISSSApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFA697231A62F4EE00D93A3F /* LiveStreamISSSApp.cpp */; };
+		AFA697251A62FBEF00D93A3F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA697171A625E4D00D93A3F /* CoreVideo.framework */; };
+		AFA697271A62FC3900D93A3F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA697261A62FC3900D93A3F /* AppKit.framework */; };
+		C023F2A8E91A4560A03DD7E0 /* AppImplCocoaRendererGl.mm in Sources */ = {isa = PBXBuildFile; fileRef = D16A1F36924844FCA2E0AAA0 /* AppImplCocoaRendererGl.mm */; };
+		E2C0E758B2234C9DBE4D8357 /* LiveStreamISSScreenSaverApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 916BB8DC04F2497F8628A8CE /* LiveStreamISSScreenSaverApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006D720219952D00008149E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		006D720319952D00008149E2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0A0E6E011C01430EA662A269 /* LiveStreamISSScreenSaver_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = LiveStreamISSScreenSaver_Prefix.pch; sourceTree = "<group>"; };
+		0F22954B4AA74A1EB79B3D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1CF88C2F86B845E6840BF96C /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = thumbnail.png; path = ../resources/thumbnail.png; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		62BF068743C748E6A75CC102 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		652ADD4A883A4D509ACC1113 /* CinderView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CinderView.mm; path = ../../../src/cinder/app/CinderView.mm; sourceTree = "<group>"; };
+		73A513456F93447EB135C05B /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = "thumbnail@2x.png"; path = "../resources/thumbnail@2x.png"; sourceTree = "<group>"; };
+		83AD19CA99084D1EA0F0E546 /* CinderLiveStreamer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CinderLiveStreamer.h; path = "../../../blocks/Cinder-LiveStreamer/src/CinderLiveStreamer.h"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* LiveStreamISSScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveStreamISSScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		916BB8DC04F2497F8628A8CE /* LiveStreamISSScreenSaverApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = LiveStreamISSScreenSaverApp.cpp; path = ../src/LiveStreamISSScreenSaverApp.cpp; sourceTree = "<group>"; };
+		9518778C33094824AEE40C5D /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		AFA696F21A625CCE00D93A3F /* LiveStreamISSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveStreamISSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA696F51A625CCE00D93A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA696F61A625CCE00D93A3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFA696F71A625CCE00D93A3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFA696F91A625CCE00D93A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFA696FB1A625CCE00D93A3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFA696FE1A625CCE00D93A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AFA697091A625CCE00D93A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA6970A1A625CCE00D93A3F /* LiveStreamISSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveStreamISSAppTests.m; sourceTree = "<group>"; };
+		AFA697151A625E3500D93A3F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AFA697171A625E4D00D93A3F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AFA6971B1A625F9300D93A3F /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		AFA6971D1A625FE800D93A3F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AFA697201A62602D00D93A3F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		AFA697231A62F4EE00D93A3F /* LiveStreamISSSApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LiveStreamISSSApp.cpp; path = ../src/LiveStreamISSSApp.cpp; sourceTree = "<group>"; };
+		AFA697261A62FC3900D93A3F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D16A1F36924844FCA2E0AAA0 /* AppImplCocoaRendererGl.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppImplCocoaRendererGl.mm; path = ../../../src/cinder/app/AppImplCocoaRendererGl.mm; sourceTree = "<group>"; };
+		D1F3D55BA575458396F312A3 /* UrlImplCocoa.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UrlImplCocoa.mm; path = ../../../src/cinder/UrlImplCocoa.mm; sourceTree = "<group>"; };
+		DB38A4F4C7F14FB79A472686 /* AppScreenSaver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = AppScreenSaver.cpp; path = ../../../src/cinder/app/AppScreenSaver.cpp; sourceTree = "<group>"; };
+		F0F56A7BC30043E59C783F3F /* AppImplCocoaScreenSaver.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppImplCocoaScreenSaver.mm; path = ../../../src/cinder/app/AppImplCocoaScreenSaver.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */,
+				006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				356418865DEF4B039BB274E9 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA696EF1A625CCE00D93A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA697271A62FC3900D93A3F /* AppKit.framework in Frameworks */,
+				AFA697251A62FBEF00D93A3F /* CoreVideo.framework in Frameworks */,
+				AFA697221A62604900D93A3F /* CoreAudio.framework in Frameworks */,
+				AFA697211A62602D00D93A3F /* Carbon.framework in Frameworks */,
+				AFA6971F1A62600400D93A3F /* Accelerate.framework in Frameworks */,
+				AFA6971E1A625FE800D93A3F /* OpenGL.framework in Frameworks */,
+				AFA6971A1A625EC300D93A3F /* AudioToolbox.framework in Frameworks */,
+				AFA697191A625E9100D93A3F /* AudioUnit.framework in Frameworks */,
+				AFA697141A625E2400D93A3F /* CoreMedia.framework in Frameworks */,
+				AFA697131A625E1400D93A3F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6A6B3E420249C98B5CE242 /* Cinder-LiveStreamer */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AFA697231A62F4EE00D93A3F /* LiveStreamISSSApp.cpp */,
+				916BB8DC04F2497F8628A8CE /* LiveStreamISSScreenSaverApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				006D720219952D00008149E2 /* AVFoundation.framework */,
+				006D720319952D00008149E2 /* CoreMedia.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* LiveStreamISSScreenSaver.saver */,
+				AFA696F21A625CCE00D93A3F /* LiveStreamISSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231DB8F311174F20B18DBC5E /* cinder */ = {
+			isa = PBXGroup;
+			children = (
+				5AF03D12071F4650A22C6312 /* app */,
+				D1F3D55BA575458396F312A3 /* UrlImplCocoa.mm */,
+			);
+			name = cinder;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* LiveStreamISSScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				AFA696F31A625CCE00D93A3F /* LiveStreamISSApp */,
+				AFA697071A625CCE00D93A3F /* LiveStreamISSAppTests */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				749BEDBBB6654E1B915D6C4B /* Cinder */,
+			);
+			name = LiveStreamISSScreenSaver;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				62BF068743C748E6A75CC102 /* Resources.h */,
+				0A0E6E011C01430EA662A269 /* LiveStreamISSScreenSaver_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F22954B4AA74A1EB79B3D52 /* Info.plist */,
+				1CF88C2F86B845E6840BF96C /* thumbnail.png */,
+				73A513456F93447EB135C05B /* thumbnail@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA697261A62FC3900D93A3F /* AppKit.framework */,
+				AFA697201A62602D00D93A3F /* Carbon.framework */,
+				AFA6971D1A625FE800D93A3F /* OpenGL.framework */,
+				AFA6971B1A625F9300D93A3F /* QuickTime.framework */,
+				AFA697171A625E4D00D93A3F /* CoreVideo.framework */,
+				AFA697151A625E3500D93A3F /* Cocoa.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				9518778C33094824AEE40C5D /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D6A6B3E420249C98B5CE242 /* Cinder-LiveStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFDF9C70994319890C1836 /* src */,
+			);
+			name = "Cinder-LiveStreamer";
+			sourceTree = "<group>";
+		};
+		5AF03D12071F4650A22C6312 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				D16A1F36924844FCA2E0AAA0 /* AppImplCocoaRendererGl.mm */,
+				652ADD4A883A4D509ACC1113 /* CinderView.mm */,
+				F0F56A7BC30043E59C783F3F /* AppImplCocoaScreenSaver.mm */,
+				DB38A4F4C7F14FB79A472686 /* AppScreenSaver.cpp */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		749BEDBBB6654E1B915D6C4B /* Cinder */ = {
+			isa = PBXGroup;
+			children = (
+				F24B95FD0D464140B4A8FFE9 /* src */,
+			);
+			name = Cinder;
+			sourceTree = "<group>";
+		};
+		A4EFDF9C70994319890C1836 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				83AD19CA99084D1EA0F0E546 /* CinderLiveStreamer.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		AFA696F31A625CCE00D93A3F /* LiveStreamISSApp */ = {
+			isa = PBXGroup;
+			children = (
+				AFA696F61A625CCE00D93A3F /* AppDelegate.h */,
+				AFA696F71A625CCE00D93A3F /* AppDelegate.m */,
+				AFA696FB1A625CCE00D93A3F /* Images.xcassets */,
+				AFA696FD1A625CCE00D93A3F /* MainMenu.xib */,
+				AFA696F41A625CCE00D93A3F /* Supporting Files */,
+			);
+			path = LiveStreamISSApp;
+			sourceTree = "<group>";
+		};
+		AFA696F41A625CCE00D93A3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFA696F51A625CCE00D93A3F /* Info.plist */,
+				AFA696F91A625CCE00D93A3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFA697071A625CCE00D93A3F /* LiveStreamISSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFA6970A1A625CCE00D93A3F /* LiveStreamISSAppTests.m */,
+				AFA697081A625CCE00D93A3F /* Supporting Files */,
+			);
+			path = LiveStreamISSAppTests;
+			sourceTree = "<group>";
+		};
+		AFA697081A625CCE00D93A3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFA697091A625CCE00D93A3F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F24B95FD0D464140B4A8FFE9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				231DB8F311174F20B18DBC5E /* cinder */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* LiveStreamISSScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LiveStreamISSScreenSaver" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveStreamISSScreenSaver;
+			productInstallPath = "$(HOME)/Applications";
+			productName = LiveStreamISSScreenSaver;
+			productReference = 8D1107320486CEB800E47090 /* LiveStreamISSScreenSaver.saver */;
+			productType = "com.apple.product-type.application";
+		};
+		AFA696F11A625CCE00D93A3F /* LiveStreamISSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA697101A625CCE00D93A3F /* Build configuration list for PBXNativeTarget "LiveStreamISSApp" */;
+			buildPhases = (
+				AFA696EE1A625CCE00D93A3F /* Sources */,
+				AFA696EF1A625CCE00D93A3F /* Frameworks */,
+				AFA696F01A625CCE00D93A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveStreamISSApp;
+			productName = LiveStreamISSApp;
+			productReference = AFA696F21A625CCE00D93A3F /* LiveStreamISSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					AFA696F11A625CCE00D93A3F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LiveStreamISSScreenSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* LiveStreamISSScreenSaver */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* LiveStreamISSScreenSaver */,
+				AFA696F11A625CCE00D93A3F /* LiveStreamISSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AC244FBC464C58BF53B1BC /* thumbnail.png in Resources */,
+				9E1748D43B6849FF8054E774 /* thumbnail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA696F01A625CCE00D93A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA696FC1A625CCE00D93A3F /* Images.xcassets in Resources */,
+				AFA696FF1A625CCE00D93A3F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C0E758B2234C9DBE4D8357 /* LiveStreamISSScreenSaverApp.cpp in Sources */,
+				C023F2A8E91A4560A03DD7E0 /* AppImplCocoaRendererGl.mm in Sources */,
+				8466C0BCA91E4EA98A7E07FC /* CinderView.mm in Sources */,
+				90DD5B8CDFA24779A350ECB2 /* AppImplCocoaScreenSaver.mm in Sources */,
+				323223A4F325460FB40D95F3 /* AppScreenSaver.cpp in Sources */,
+				537C8FD558304C7A8E15A814 /* UrlImplCocoa.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA696EE1A625CCE00D93A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA697241A62F4EE00D93A3F /* LiveStreamISSSApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFA696FD1A625CCE00D93A3F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA696FE1A625CCE00D93A3F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFA6970C1A625CCE00D93A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = LiveStreamISSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFA6970D1A625CCE00D93A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = LiveStreamISSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiveStreamISSScreenSaver_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = LiveStreamISSScreenSaver;
+				SYMROOT = ./build;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiveStreamISSScreenSaver_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = LiveStreamISSScreenSaver;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = ../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include \"../../../blocks/Cinder-LiveStreamer/src\"";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = ../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include \"../../../blocks/Cinder-LiveStreamer/src\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFA697101A625CCE00D93A3F /* Build configuration list for PBXNativeTarget "LiveStreamISSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA6970C1A625CCE00D93A3F /* Debug */,
+				AFA6970D1A625CCE00D93A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LiveStreamISSScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LiveStreamISSScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : 0,
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4" : 0,
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AEC31C25-4E2B-4EB9-B275-E19758126E9D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : "CinderEight",
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4" : "blocks\/Cinder-Syphon\/",
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DynamicGeometry",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DynamicGeometry\/xcode\/DynamicGeometry.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cinder\/Cinder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4B458D0D225ED63FAE0155615993B7D3ECE020"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/Cinder-Syphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4F8B5CE476B140F328F17889ECB06C8A990A0A4"
+    }
+  ]
+}

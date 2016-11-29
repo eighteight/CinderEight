@@ -1,0 +1,7 @@
+ofxKinect
+ofxNetwork
+ofxOpenCv
+ofxOsc
+ofxXmlSettings
+ofxARDrone
+ofxARDroneOscBridge

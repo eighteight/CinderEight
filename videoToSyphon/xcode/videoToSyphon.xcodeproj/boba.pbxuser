@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	00BAE6590E7ED9C10018A608 /* videoToSyphonApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 1833}}";
+			sepNavSelRange = "{1150, 0}";
+			sepNavVisRange = "{1873, 1010}";
+			sepNavVisRect = "{{0, 0}, {1210, 624}}";
+			sepNavWindowFrame = "{{58, 191}, {992, 832}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C45990E013441FB1000E4A8C /* videoToSyphon */;
+		activeTarget = 8D1107260486CEB800E47090 /* videoToSyphon */;
+		breakpoints = (
+		);
+		codeSenseManager = C459911413441FC7000E4A8C /* Code sense */;
+		executables = (
+			C45990E013441FB1000E4A8C /* videoToSyphon */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1012,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					972,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323543167;
+			PBXWorkspaceStateSaveDate = 323543167;
+		};
+		perUserProjectItems = {
+			C472C401134830A9004EB1EB /* PBXTextBookmark */ = C472C401134830A9004EB1EB /* PBXTextBookmark */;
+			C472C403134830A9004EB1EB /* PBXTextBookmark */ = C472C403134830A9004EB1EB /* PBXTextBookmark */;
+			C472C44113484061004EB1EB /* PBXTextBookmark */ = C472C44113484061004EB1EB /* PBXTextBookmark */;
+			C4B0022B1348E057006A2836 /* PBXTextBookmark */ = C4B0022B1348E057006A2836 /* PBXTextBookmark */;
+			C4B002371348E096006A2836 /* PBXTextBookmark */ = C4B002371348E096006A2836 /* PBXTextBookmark */;
+			C4B0024F1348E359006A2836 /* XCBuildMessageTextBookmark */ = C4B0024F1348E359006A2836 /* XCBuildMessageTextBookmark */;
+			C4B002571348E7F2006A2836 /* PBXTextBookmark */ = C4B002571348E7F2006A2836 /* PBXTextBookmark */;
+			C4B002581348E7F2006A2836 /* PBXTextBookmark */ = C4B002581348E7F2006A2836 /* PBXTextBookmark */;
+			C4FC43541348D13500DE1FB6 /* PBXTextBookmark */ = C4FC43541348D13500DE1FB6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C459911313441FC7000E4A8C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32BDD54012ECE4DB002FAAC7 /* SyphonNameboundClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {722, 3237}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1446}";
+		};
+	};
+	32BDD54412ECE4DB002FAAC7 /* syphonClient.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1190, 2184}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 954}";
+		};
+	};
+	32BDD54612ECE4DB002FAAC7 /* syphonServer.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {722, 1716}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 449}";
+		};
+	};
+	8D1107260486CEB800E47090 /* videoToSyphon */ = {
+		activeExec = 0;
+		executables = (
+			C45990E013441FB1000E4A8C /* videoToSyphon */,
+		);
+	};
+	C43A2F221347D0C300C152CB /* project.pbxproj */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.pbxproject;
+		name = project.pbxproj;
+		path = /Users/boba/repos/Cinder/devel/dragToSyphon/xcode/dragToSyphon.xcodeproj/project.pbxproj;
+		sourceTree = "<absolute>";
+	};
+	C45990E013441FB1000E4A8C /* videoToSyphon */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 0;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = videoToSyphon;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C459911313441FC7000E4A8C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C459911413441FC7000E4A8C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C472C401134830A9004EB1EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C43A2F221347D0C300C152CB /* project.pbxproj */;
+		name = "project.pbxproj: 6";
+		rLen = 1;
+		rLoc = 74;
+		rType = 0;
+		vrLen = 7171;
+		vrLoc = 0;
+	};
+	C472C403134830A9004EB1EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C472C404134830A9004EB1EB /* syphonServer.mm */;
+		name = "syphonServer.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 0;
+	};
+	C472C404134830A9004EB1EB /* syphonServer.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = syphonServer.mm;
+		path = /Users/boba/Documents/workspace/Crop/includes/blocks/Syphon/src/syphonServer.mm;
+		sourceTree = "<absolute>";
+	};
+	C472C408134830A9004EB1EB /* syphonClient.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = syphonClient.mm;
+		path = /Users/boba/Documents/workspace/Crop/includes/blocks/Syphon/src/syphonClient.mm;
+		sourceTree = "<absolute>";
+	};
+	C472C44113484061004EB1EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C472C408134830A9004EB1EB /* syphonClient.mm */;
+		name = "syphonClient.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 0;
+	};
+	C4B002281348E057006A2836 /* Texture.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Texture.cpp;
+		path = /Users/boba/repos/Cinder/src/cinder/gl/Texture.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1190, 14677}}";
+			sepNavSelRange = "{26913, 0}";
+			sepNavVisRange = "{26146, 1006}";
+		};
+	};
+	C4B0022B1348E057006A2836 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* videoToSyphonApp.cpp */;
+		name = "videoToSyphonApp.cpp: 97";
+		rLen = 0;
+		rLoc = 1150;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 1627;
+	};
+	C4B002371348E096006A2836 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4B002281348E057006A2836 /* Texture.cpp */;
+		name = "Texture.cpp: 799";
+		rLen = 0;
+		rLoc = 26913;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 26146;
+	};
+	C4B0024F1348E359006A2836 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'archimedes' was not declared in this scope";
+		fRef = 00BAE6590E7ED9C10018A608 /* videoToSyphonApp.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 75;
+		rType = 1;
+	};
+	C4B002571348E7F2006A2836 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* videoToSyphonApp.cpp */;
+		name = "videoToSyphonApp.cpp: 87";
+		rLen = 0;
+		rLoc = 1903;
+		rType = 0;
+		vrLen = 925;
+		vrLoc = 1958;
+	};
+	C4B002581348E7F2006A2836 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* videoToSyphonApp.cpp */;
+		name = "videoToSyphonApp.cpp: 52";
+		rLen = 0;
+		rLoc = 1150;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 1873;
+	};
+	C4FC43541348D13500DE1FB6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BDD54412ECE4DB002FAAC7 /* syphonClient.mm */;
+		name = "syphonClient.mm: 9";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 0;
+	};
+}

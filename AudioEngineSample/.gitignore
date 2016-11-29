@@ -1,0 +1,12 @@
+vc11/AudioEngineSample.v11.suo
+vc11/AudioEngineSample.vcxproj.user
+*.bak
+*.tlog
+*.obj
+vc11/AudioEngineSample.opensdf
+vc11/AudioEngineSample.sdf
+vc11/Release/AudioEngine.lastbuildstate
+vc11/Release/AudioEngine.map
+vc11/Release/AudioEngineSample.log
+vc11/Release/Resources.res
+vc11/Release/vc110.pdb

@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4" : 0,
+    "475BF70DEAA7F4AEFFB560A82EF1F851CBD87E7F" : 0,
+    "1DF18FB9320FD2D4261A37320F75A6C7E1E8521E" : 0,
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B4F0692A-387B-4161-B6A5-CBEDBDC8CC91",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4" : "blocks\/Cinder-Syphon0.8\/",
+    "475BF70DEAA7F4AEFFB560A82EF1F851CBD87E7F" : "blocks\/Cinder-Asio\/",
+    "1DF18FB9320FD2D4261A37320F75A6C7E1E8521E" : "CinderEight\/ArdroneControl08\/blocks\/ofxARDrone\/",
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : "CinderEight\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ardronecontrol",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ArdroneControl08\/xcode\/ardronecontrol.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/memo\/ofxARDrone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DF18FB9320FD2D4261A37320F75A6C7E1E8521E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BanTheRewind\/Cinder-Asio.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "475BF70DEAA7F4AEFFB560A82EF1F851CBD87E7F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/Cinder-Syphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4F8B5CE476B140F328F17889ECB06C8A990A0A4"
+    }
+  ]
+}

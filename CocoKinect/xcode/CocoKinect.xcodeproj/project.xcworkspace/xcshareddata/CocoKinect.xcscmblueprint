@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ACAF36AB95B724D071025B9718E534DAD935AAD8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ACAF36AB95B724D071025B9718E534DAD935AAD8" : 0,
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "482EBC4A-AE0F-4557-B4E8-36AB97A864C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ACAF36AB95B724D071025B9718E534DAD935AAD8" : "CocoKinect\/",
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CocoKinect",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "xcode\/CocoKinect.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CocoKinect.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ACAF36AB95B724D071025B9718E534DAD935AAD8"
+    }
+  ]
+}

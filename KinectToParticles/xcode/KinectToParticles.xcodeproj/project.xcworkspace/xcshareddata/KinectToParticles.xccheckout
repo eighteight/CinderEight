@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>39F05B3C-840F-4953-ABA1-D72CC3A76688</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KinectToParticles</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5449222E-399A-48FB-AE03-E6475EB0E6ED</key>
+		<string>https://github.com/astellato/Cinder-Syphon.git</string>
+		<key>B5C3E3CD-354B-42B7-835C-938AC001F46D</key>
+		<string>https://github.com/cinder/Cinder-Kinect.git</string>
+		<key>BEFC17D0-4D0F-490A-9FD2-43CE9B1671F1</key>
+		<string>https://github.com/eighteight/CinderEight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KinectToParticles/xcode/KinectToParticles.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5449222E-399A-48FB-AE03-E6475EB0E6ED</key>
+		<string>../../../../../blocks/Cinder-Syphon</string>
+		<key>B5C3E3CD-354B-42B7-835C-938AC001F46D</key>
+		<string>../../../../../blocks/Cinder-Freenect</string>
+		<key>BEFC17D0-4D0F-490A-9FD2-43CE9B1671F1</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eighteight/CinderEight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BEFC17D0-4D0F-490A-9FD2-43CE9B1671F1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B5C3E3CD-354B-42B7-835C-938AC001F46D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cinder-Freenect</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5449222E-399A-48FB-AE03-E6475EB0E6ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cinder-Syphon</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BEFC17D0-4D0F-490A-9FD2-43CE9B1671F1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CinderEight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

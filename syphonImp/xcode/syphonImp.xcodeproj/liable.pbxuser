@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	00BAE6590E7ED9C10018A608 /* syphonImpApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {544, 2275}}";
+			sepNavSelRange = "{1559, 0}";
+			sepNavVisRange = "{1416, 280}";
+			sepNavWindowFrame = "{{87, 21}, {788, 1148}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 32BDD50912ECE498002FAAC7 /* syphonImp */;
+		activeTarget = 8D1107260486CEB800E47090 /* syphonImp */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* syphonImp */,
+		);
+		codeSenseManager = 32BDD52F12ECE4A0002FAAC7 /* Code sense */;
+		executables = (
+			32BDD50912ECE498002FAAC7 /* syphonImp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317514904;
+			PBXWorkspaceStateSaveDate = 317514904;
+		};
+		perUserProjectItems = {
+			32BDD56F12ECE75A002FAAC7 /* PBXTextBookmark */ = 32BDD56F12ECE75A002FAAC7 /* PBXTextBookmark */;
+			32BDD5D412ECF1EB002FAAC7 /* PBXTextBookmark */ = 32BDD5D412ECF1EB002FAAC7 /* PBXTextBookmark */;
+			32BDD63112ECF5E8002FAAC7 /* PBXTextBookmark */ = 32BDD63112ECF5E8002FAAC7 /* PBXTextBookmark */;
+			32BDD63212ECF5E8002FAAC7 /* XCBuildMessageTextBookmark */ = 32BDD63212ECF5E8002FAAC7 /* XCBuildMessageTextBookmark */;
+			32BDD65E12ECF7AC002FAAC7 /* PBXBookmark */ = 32BDD65E12ECF7AC002FAAC7 /* PBXBookmark */;
+			32BDD67412ECF8AC002FAAC7 /* PBXBookmark */ = 32BDD67412ECF8AC002FAAC7 /* PBXBookmark */;
+			32BDD68412ECF98B002FAAC7 /* PBXTextBookmark */ = 32BDD68412ECF98B002FAAC7 /* PBXTextBookmark */;
+			32BDD68512ECF98B002FAAC7 /* PBXTextBookmark */ = 32BDD68512ECF98B002FAAC7 /* PBXTextBookmark */;
+			32BDD68612ECF98B002FAAC7 /* PBXTextBookmark */ = 32BDD68612ECF98B002FAAC7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 32BDD52E12ECE4A0002FAAC7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32BDD50912ECE498002FAAC7 /* syphonImp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = syphonImp;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	32BDD52E12ECE4A0002FAAC7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	32BDD52F12ECE4A0002FAAC7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	32BDD53F12ECE4DB002FAAC7 /* SyphonNameboundClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {593, 923}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 827}";
+		};
+	};
+	32BDD54212ECE4DB002FAAC7 /* cinderSyphon.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 1020}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 228}";
+			sepNavWindowFrame = "{{38, 4}, {788, 1148}}";
+		};
+	};
+	32BDD54312ECE4DB002FAAC7 /* syphonClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 1020}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRange = "{0, 698}";
+			sepNavWindowFrame = "{{38, 4}, {788, 1148}}";
+		};
+	};
+	32BDD54412ECE4DB002FAAC7 /* syphonClient.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 2093}}";
+			sepNavSelRange = "{3679, 0}";
+			sepNavVisRange = "{3350, 374}";
+			sepNavWindowFrame = "{{260, 20}, {788, 1148}}";
+		};
+	};
+	32BDD54512ECE4DB002FAAC7 /* syphonServer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 1020}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 445}";
+			sepNavWindowFrame = "{{38, 4}, {788, 1148}}";
+		};
+	};
+	32BDD54612ECE4DB002FAAC7 /* syphonServer.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1874, 1638}}";
+			sepNavSelRange = "{1835, 0}";
+			sepNavVisRange = "{878, 2092}";
+			sepNavWindowFrame = "{{38, 4}, {788, 1148}}";
+		};
+	};
+	32BDD56F12ECE75A002FAAC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BDD54312ECE4DB002FAAC7 /* syphonClient.h */;
+		name = "syphonClient.h: 33";
+		rLen = 0;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 274;
+	};
+	32BDD5D412ECF1EB002FAAC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* syphonImpApp.cpp */;
+		name = "syphonImpApp.cpp: 124";
+		rLen = 0;
+		rLoc = 2631;
+		rType = 0;
+		vrLen = 435;
+		vrLoc = 2165;
+	};
+	32BDD63112ECF5E8002FAAC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BDD53F12ECE4DB002FAAC7 /* SyphonNameboundClient.h */;
+		name = "SyphonNameboundClient.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	32BDD63212ECF5E8002FAAC7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No matching function for call to 'Rect::Rect(float&, float&, float, float)'";
+		fRef = 32BDD54412ECE4DB002FAAC7 /* syphonClient.mm */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 141;
+		rType = 1;
+	};
+	32BDD65E12ECF7AC002FAAC7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 32BDD54412ECE4DB002FAAC7 /* syphonClient.mm */;
+	};
+	32BDD67412ECF8AC002FAAC7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* syphonImpApp.cpp */;
+	};
+	32BDD68412ECF98B002FAAC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BDD54412ECE4DB002FAAC7 /* syphonClient.mm */;
+		name = "syphonClient.mm: 146";
+		rLen = 0;
+		rLoc = 3679;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 3350;
+	};
+	32BDD68512ECF98B002FAAC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BDD54412ECE4DB002FAAC7 /* syphonClient.mm */;
+		name = "syphonClient.mm: 152";
+		rLen = 0;
+		rLoc = 3817;
+		rType = 0;
+		vrLen = 2313;
+		vrLoc = 1521;
+	};
+	32BDD68612ECF98B002FAAC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* syphonImpApp.cpp */;
+		name = "syphonImpApp.cpp: 137";
+		rLen = 0;
+		rLoc = 2696;
+		rType = 0;
+		vrLen = 1485;
+		vrLoc = 1917;
+	};
+	8D1107260486CEB800E47090 /* syphonImp */ = {
+		activeExec = 0;
+		executables = (
+			32BDD50912ECE498002FAAC7 /* syphonImp */,
+		);
+	};
+}

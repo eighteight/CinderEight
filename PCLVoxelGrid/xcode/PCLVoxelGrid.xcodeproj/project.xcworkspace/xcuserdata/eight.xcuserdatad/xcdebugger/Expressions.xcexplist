@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "pcl::PCLBase&lt;sensor_msgs::PointCloud2&gt;::setInputCloud(boost::shared_ptr&lt;sensor_msgs::PointCloud2 const&gt; const&amp;):pcl_base.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "PCLVoxelGridApp::update():PCLVoxelGridApp.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++9935FE8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++65E4AFF" : 0,
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++CDC6B56" : 0,
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++A0807E9" : 0,
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++9935FE8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F9B2F662-1D8D-440C-BD7C-4C27326A754C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++65E4AFF" : "blocks\/Cinder-Syphon0.8\/",
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++CDC6B56" : "blocks\/Cinder-Syphon\/",
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++A0807E9" : "blocks\/Cinder-Syphon\/",
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++9935FE8" : "CinderEight\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ffmpeg-to-syphon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ArdroneFfmpeg08\/xcode\/ffmpeg-to-syphon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++9935FE8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/Cinder-Syphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++65E4AFF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/Cinder-Syphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++A0807E9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/Cinder-Syphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++CDC6B56"
+    }
+  ]
+}

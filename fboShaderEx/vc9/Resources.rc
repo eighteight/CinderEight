@@ -1,0 +1,10 @@
+#pragma once
+
+#include "../include/Resources.h"
+
+RES_ICON_APP
+
+RES_TEXTURE
+
+RES_POSTPROCESS_VERT
+RES_POSTPROCESS_FRAG

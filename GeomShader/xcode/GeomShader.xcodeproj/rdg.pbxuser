@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	00BAE6590E7ED9C10018A608 /* GeomShaderApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 4914}}";
+			sepNavSelRange = "{9843, 0}";
+			sepNavVisRange = "{9089, 992}";
+			sepNavWindowFrame = "{{42, 93}, {1296, 759}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 69FD12C5149F1C4C0056BEB1 /* GeomShader */;
+		activeTarget = 8D1107260486CEB800E47090 /* GeomShader */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* GeomShader */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 69FD12F8149F1C650056BEB1 /* Code sense */;
+		executables = (
+			69FD12C5149F1C4C0056BEB1 /* GeomShader */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					368,
+					20,
+					268,
+					268,
+					196,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					990,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					950,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 346197841;
+			PBXWorkspaceStateSaveDate = 346197841;
+		};
+		perUserProjectItems = {
+			690AD96214A28CE5008255B5 /* PBXTextBookmark */ = 690AD96214A28CE5008255B5 /* PBXTextBookmark */;
+			690AD98014A28F3C008255B5 /* PBXTextBookmark */ = 690AD98014A28F3C008255B5 /* PBXTextBookmark */;
+			690AD98114A28F3C008255B5 /* PBXTextBookmark */ = 690AD98114A28F3C008255B5 /* PBXTextBookmark */;
+			690AD98314A28F3C008255B5 /* PBXTextBookmark */ = 690AD98314A28F3C008255B5 /* PBXTextBookmark */;
+			6931405114A28C270087799B /* PBXTextBookmark */ = 6931405114A28C270087799B /* PBXTextBookmark */;
+			6931405914A28CB50087799B /* PBXBookmark */ = 6931405914A28CB50087799B /* PBXBookmark */;
+			6954E31A14A28F69009365A9 /* PBXTextBookmark */ = 6954E31A14A28F69009365A9 /* PBXTextBookmark */;
+			698E215F149F1F06005E586F /* PBXTextBookmark */ = 698E215F149F1F06005E586F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 69FD12F7149F1C650056BEB1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* GeomShader_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 451}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 147}";
+		};
+	};
+	690AD96214A28CE5008255B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6931405B14A28CB50087799B /* Resources.h */;
+		name = "Resources.h: 7";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 386;
+		vrLoc = 0;
+	};
+	690AD98014A28F3C008255B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69DBC416149F2C64008921F9 /* draw.frag */;
+		name = "draw.frag: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 92;
+		vrLoc = 0;
+	};
+	690AD98114A28F3C008255B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* GeomShader_Prefix.pch */;
+		name = "GeomShader_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 147;
+		vrLoc = 0;
+	};
+	690AD98314A28F3C008255B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* GeomShaderApp.cpp */;
+		name = "GeomShaderApp.cpp: 385";
+		rLen = 0;
+		rLoc = 9843;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 9114;
+	};
+	6931405114A28C270087799B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69DBC417149F2C64008921F9 /* draw.geom */;
+		name = "draw.geom: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 0;
+	};
+	6931405914A28CB50087799B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */;
+	};
+	6931405B14A28CB50087799B /* Resources.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Resources.h;
+		path = /Users/rdg/github/GeomShader/include/Resources.h;
+		sourceTree = "<absolute>";
+	};
+	6954E31A14A28F69009365A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* GeomShaderApp.cpp */;
+		name = "GeomShaderApp.cpp: 385";
+		rLen = 0;
+		rLoc = 9843;
+		rType = 0;
+		vrLen = 992;
+		vrLoc = 9089;
+	};
+	698E215F149F1F06005E586F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 698E2160149F1F06005E586F /* QuickdrawAPI.h */;
+		name = "QuickdrawAPI.h: 628";
+		rLen = 0;
+		rLoc = 19228;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 18757;
+	};
+	698E2160149F1F06005E586F /* QuickdrawAPI.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QuickdrawAPI.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/QuickdrawAPI.h;
+		sourceTree = "<absolute>";
+	};
+	69DBC416149F2C64008921F9 /* draw.frag */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 451}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 92}";
+		};
+	};
+	69DBC417149F2C64008921F9 /* draw.geom */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 481}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 690}";
+		};
+	};
+	69FD12C5149F1C4C0056BEB1 /* GeomShader */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GeomShader;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	69FD12F7149F1C650056BEB1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	69FD12F8149F1C650056BEB1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* GeomShader */ = {
+		activeExec = 0;
+		executables = (
+			69FD12C5149F1C4C0056BEB1 /* GeomShader */,
+		);
+	};
+}

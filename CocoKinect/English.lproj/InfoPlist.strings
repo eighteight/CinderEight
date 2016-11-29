@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIconFile</key>
+    <string>Camera.icns</string>
+	<key>CFBundleGetInfoString</key>
+	<string>CocoKinect for RAMDanceToolkit 0.1 Copyright © 2013 onewaytheater.us (eight/Vladimir Gusev)</string>
+	<key>CFBundleName</key>
+	<string>CocoKinect</string>
+	<key>CFBundleShortVersionString</key>
+	<string>CocoKinect  for RAMDanceToolkit Version 0.1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2013 onewaytheater.us (eight/Vladimir Gusev)</string>
+</dict>
+</plist>

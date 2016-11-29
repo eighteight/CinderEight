@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++019019C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++7F90F7E" : 0,
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++019019C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "81273260-4BF2-4462-B05C-EA4C4F1DBD51",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++7F90F7E" : "blocks\/Cinder-Syphon0.8\/",
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++019019C" : "CinderEight\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AudioMicShader3d",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GodRays\/xcode\/AudioMicShader3d.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07+++019019C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/Cinder-Syphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4F8B5CE476B140F328F17889ECB06C8A990A0A4+++7F90F7E"
+    }
+  ]
+}

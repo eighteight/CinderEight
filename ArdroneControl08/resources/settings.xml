@@ -1,0 +1,24 @@
+<settingsXml>
+    <!-- 
+     only first url will be used
+     press 'r' to go back to this url, if you changed input by opening files (see below)
+     -->
+
+    <url>rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov</url>
+
+    <!--
+     ontop if set to 1 will put the window on top of everything: this maybe useful if your mac has nap services enabled.
+     Nap services may affect the application frame rate when it is hidden from view on your monitory
+     
+     if ontop is enabled (set to 1), the file drag and drop feature will not work. 
+     in any case press 'o' to open file through a dialog
+     
+     -->
+    <ontop>0</ontop>
+    
+    <!--sizeEqualsMovieSize if set to 1 will override all window size related settings beneath it -->
+    <sizeEqualsMovieSize>0</sizeEqualsMovieSize>
+    <resizable>1</resizable>
+    <height>400</height>
+    <width>600</width>
+</settingsXml>

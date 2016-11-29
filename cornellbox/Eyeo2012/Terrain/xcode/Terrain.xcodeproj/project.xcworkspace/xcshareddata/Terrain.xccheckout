@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DB487B68-F514-4D52-9D27-CBF0D8D88D5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Terrain</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29EEE592-D402-477E-AC41-C5BE66BB279E</key>
+		<string>https://github.com/eighteight/CinderEight.git</string>
+		<key>C55D6421-0526-4546-ABC9-CDD157974BE3</key>
+		<string>https://github.com/rogerpala/FMOD-Ex-Cinder-Block.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cornellbox/Eyeo2012/Terrain/xcode/Terrain.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29EEE592-D402-477E-AC41-C5BE66BB279E</key>
+		<string>../../../../../..</string>
+		<key>C55D6421-0526-4546-ABC9-CDD157974BE3</key>
+		<string>../../../../../../../blocks/FMOD-Ex-Cinder-Block</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eighteight/CinderEight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29EEE592-D402-477E-AC41-C5BE66BB279E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29EEE592-D402-477E-AC41-C5BE66BB279E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CinderEight</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C55D6421-0526-4546-ABC9-CDD157974BE3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FMOD-Ex-Cinder-Block</string>
+		</dict>
+	</array>
+</dict>
+</plist>

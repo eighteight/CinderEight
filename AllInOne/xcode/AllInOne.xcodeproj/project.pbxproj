@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		180068EDD6C646C0B3F8308A /* AllInOneApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E14F2F763D45E9B230C81C /* AllInOneApp.cpp */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		AF7C9D4C18FF5F460064BA77 /* AllInOneApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E14F2F763D45E9B230C81C /* AllInOneApp.cpp */; };
+		AF7C9D5118FF5F460064BA77 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		AF7C9D5318FF5F460064BA77 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		AF7C9D5418FF5F460064BA77 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		AF7C9D5618FF5F460064BA77 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		AF7CA1E818FF7ACC0064BA77 /* Avf.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF7CA11718FF7ACC0064BA77 /* Avf.mm */; };
+		AF7CA1E918FF7ACC0064BA77 /* Avf.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF7CA11718FF7ACC0064BA77 /* Avf.mm */; };
+		AF7CA1EC18FF7ACC0064BA77 /* AvfUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF7CA11918FF7ACC0064BA77 /* AvfUtils.mm */; };
+		AF7CA1ED18FF7ACC0064BA77 /* AvfUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF7CA11918FF7ACC0064BA77 /* AvfUtils.mm */; };
+		AF7CA1EE18FF7ACC0064BA77 /* AvfWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF7CA11A18FF7ACC0064BA77 /* AvfWriter.mm */; };
+		AF7CA1EF18FF7ACC0064BA77 /* AvfWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF7CA11A18FF7ACC0064BA77 /* AvfWriter.mm */; };
+		AF7CA21218FF7C1A0064BA77 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA21118FF7C1A0064BA77 /* AVFoundation.framework */; };
+		AF7CA21318FF7C1A0064BA77 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA21118FF7C1A0064BA77 /* AVFoundation.framework */; };
+		AF7CA21518FF7C4E0064BA77 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA21418FF7C4E0064BA77 /* CoreMedia.framework */; };
+		AF7CA21618FF7C4E0064BA77 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA21418FF7C4E0064BA77 /* CoreMedia.framework */; };
+		AF7CA21A18FF83530064BA77 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA21918FF83530064BA77 /* OpenGL.framework */; };
+		AF7CA21C18FF838E0064BA77 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA21B18FF838E0064BA77 /* QTKit.framework */; };
+		AF7CA21E18FF83AB0064BA77 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA21D18FF83AB0064BA77 /* AudioUnit.framework */; };
+		AF7CA22018FF83EB0064BA77 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA21F18FF83EB0064BA77 /* MobileCoreServices.framework */; };
+		AF7CA22218FF84110064BA77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA22118FF84110064BA77 /* QuartzCore.framework */; };
+		AF7CA22418FF84270064BA77 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA22318FF84270064BA77 /* OpenGLES.framework */; };
+		AF7CA22618FF843F0064BA77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA22518FF843F0064BA77 /* UIKit.framework */; };
+		AF7CA22818FF84520064BA77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA22718FF84520064BA77 /* Foundation.framework */; };
+		AF7CA22A18FF846A0064BA77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA22918FF846A0064BA77 /* CoreGraphics.framework */; };
+		AF7CA22C18FF847A0064BA77 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA22B18FF847A0064BA77 /* ImageIO.framework */; };
+		AF7CA22E18FF84930064BA77 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA22D18FF84930064BA77 /* CoreText.framework */; };
+		AF7CA23018FF95F20064BA77 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CA22F18FF95F20064BA77 /* Cocoa.framework */; };
+		E613CED5190024F9005E2E66 /* CinderApp_ios.png in Resources */ = {isa = PBXBuildFile; fileRef = E613CED4190024F9005E2E66 /* CinderApp_ios.png */; };
+		E633B9A01901A12D00F08016 /* AllInOneApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = E633B99F1901A12D00F08016 /* AllInOneApp.icns */; };
+		E633B9A21901A14B00F08016 /* AllInOne_ios.png in Resources */ = {isa = PBXBuildFile; fileRef = E633B9A11901A14B00F08016 /* AllInOne_ios.png */; };
+		E6EE5345190331B900AA039F /* CocoaTouchGestures.mm in Sources */ = {isa = PBXBuildFile; fileRef = E6EE532D190331B900AA039F /* CocoaTouchGestures.mm */; };
+		E6EE5347190331B900AA039F /* UIView+UIView_Gestures.mm in Sources */ = {isa = PBXBuildFile; fileRef = E6EE5331190331B900AA039F /* UIView+UIView_Gestures.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0A9463D9D12742F8BCC3801A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		51E14F2F763D45E9B230C81C /* AllInOneApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = AllInOneApp.cpp; path = ../src/AllInOneApp.cpp; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* AllInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7C9D5A18FF5F460064BA77 /* AllInOneIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOneIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7CA03518FF7ACB0064BA77 /* Avf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avf.h; sourceTree = "<group>"; };
+		AF7CA03718FF7ACB0064BA77 /* AvfUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvfUtils.h; sourceTree = "<group>"; };
+		AF7CA03818FF7ACB0064BA77 /* AvfWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvfWriter.h; sourceTree = "<group>"; };
+		AF7CA11718FF7ACC0064BA77 /* Avf.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Avf.mm; sourceTree = "<group>"; };
+		AF7CA11918FF7ACC0064BA77 /* AvfUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AvfUtils.mm; sourceTree = "<group>"; };
+		AF7CA11A18FF7ACC0064BA77 /* AvfWriter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AvfWriter.mm; sourceTree = "<group>"; };
+		AF7CA21118FF7C1A0064BA77 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AF7CA21418FF7C4E0064BA77 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AF7CA21918FF83530064BA77 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		AF7CA21B18FF838E0064BA77 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = ../../../../../../../System/Library/Frameworks/QTKit.framework; sourceTree = "<group>"; };
+		AF7CA21D18FF83AB0064BA77 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		AF7CA21F18FF83EB0064BA77 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA22118FF84110064BA77 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA22318FF84270064BA77 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA22518FF843F0064BA77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA22718FF84520064BA77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA22918FF846A0064BA77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA22B18FF847A0064BA77 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA22D18FF84930064BA77 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA22F18FF95F20064BA77 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
+		E2F4825864554937BAC3BFEC /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		E613CED4190024F9005E2E66 /* CinderApp_ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CinderApp_ios.png; path = ../resources/CinderApp_ios.png; sourceTree = "<group>"; };
+		E633B99F1901A12D00F08016 /* AllInOneApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AllInOneApp.icns; path = ../resources/AllInOneApp.icns; sourceTree = "<group>"; };
+		E633B9A11901A14B00F08016 /* AllInOne_ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AllInOne_ios.png; path = ../resources/AllInOne_ios.png; sourceTree = "<group>"; };
+		E6CCD509190066A90026DDFF /* Info-IOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-IOS.plist"; sourceTree = "<group>"; };
+		E6EE532C190331B900AA039F /* CocoaTouchGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaTouchGestures.h; sourceTree = "<group>"; };
+		E6EE532D190331B900AA039F /* CocoaTouchGestures.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CocoaTouchGestures.mm; sourceTree = "<group>"; };
+		E6EE532E190331B900AA039F /* SwipeGestureRecognizerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeGestureRecognizerInfo.h; sourceTree = "<group>"; };
+		E6EE532F190331B900AA039F /* TapGestureRecognizerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGestureRecognizerInfo.h; sourceTree = "<group>"; };
+		E6EE5330190331B900AA039F /* UIView+UIView_Gestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIView_Gestures.h"; sourceTree = "<group>"; };
+		E6EE5331190331B900AA039F /* UIView+UIView_Gestures.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIView+UIView_Gestures.mm"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7CA21518FF7C4E0064BA77 /* CoreMedia.framework in Frameworks */,
+				AF7CA21218FF7C1A0064BA77 /* AVFoundation.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				AF7CA21A18FF83530064BA77 /* OpenGL.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				AF7CA21E18FF83AB0064BA77 /* AudioUnit.framework in Frameworks */,
+				AF7CA23018FF95F20064BA77 /* Cocoa.framework in Frameworks */,
+				AF7CA21C18FF838E0064BA77 /* QTKit.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7C9D4D18FF5F460064BA77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7CA22A18FF846A0064BA77 /* CoreGraphics.framework in Frameworks */,
+				AF7CA22218FF84110064BA77 /* QuartzCore.framework in Frameworks */,
+				AF7CA21618FF7C4E0064BA77 /* CoreMedia.framework in Frameworks */,
+				AF7CA22018FF83EB0064BA77 /* MobileCoreServices.framework in Frameworks */,
+				AF7CA22E18FF84930064BA77 /* CoreText.framework in Frameworks */,
+				AF7CA21318FF7C1A0064BA77 /* AVFoundation.framework in Frameworks */,
+				AF7C9D5118FF5F460064BA77 /* CoreVideo.framework in Frameworks */,
+				AF7C9D5318FF5F460064BA77 /* Accelerate.framework in Frameworks */,
+				AF7C9D5418FF5F460064BA77 /* AudioToolbox.framework in Frameworks */,
+				AF7CA22C18FF847A0064BA77 /* ImageIO.framework in Frameworks */,
+				AF7C9D5618FF5F460064BA77 /* CoreAudio.framework in Frameworks */,
+				AF7CA22418FF84270064BA77 /* OpenGLES.framework in Frameworks */,
+				AF7CA22618FF843F0064BA77 /* UIKit.framework in Frameworks */,
+				AF7CA22818FF84520064BA77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE5311190331B900AA039F /* Cinder-CocoaTouchGestures-Block */,
+				AF7CA03218FF7ACB0064BA77 /* Cinder-AvfImpl */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				51E14F2F763D45E9B230C81C /* AllInOneApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7CA22F18FF95F20064BA77 /* Cocoa.framework */,
+				AF7CA22D18FF84930064BA77 /* CoreText.framework */,
+				AF7CA22B18FF847A0064BA77 /* ImageIO.framework */,
+				AF7CA22918FF846A0064BA77 /* CoreGraphics.framework */,
+				AF7CA22718FF84520064BA77 /* Foundation.framework */,
+				AF7CA22518FF843F0064BA77 /* UIKit.framework */,
+				AF7CA22318FF84270064BA77 /* OpenGLES.framework */,
+				AF7CA22118FF84110064BA77 /* QuartzCore.framework */,
+				AF7CA21F18FF83EB0064BA77 /* MobileCoreServices.framework */,
+				AF7CA21D18FF83AB0064BA77 /* AudioUnit.framework */,
+				AF7CA21B18FF838E0064BA77 /* QTKit.framework */,
+				AF7CA21918FF83530064BA77 /* OpenGL.framework */,
+				AF7CA21418FF7C4E0064BA77 /* CoreMedia.framework */,
+				AF7CA21118FF7C1A0064BA77 /* AVFoundation.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* AllInOne.app */,
+				AF7C9D5A18FF5F460064BA77 /* AllInOneIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AllInOne */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = AllInOne;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4825864554937BAC3BFEC /* Resources.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E633B9A11901A14B00F08016 /* AllInOne_ios.png */,
+				E6CCD509190066A90026DDFF /* Info-IOS.plist */,
+				E613CED4190024F9005E2E66 /* CinderApp_ios.png */,
+				E633B99F1901A12D00F08016 /* AllInOneApp.icns */,
+				0A9463D9D12742F8BCC3801A /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF7CA03218FF7ACB0064BA77 /* Cinder-AvfImpl */ = {
+			isa = PBXGroup;
+			children = (
+				AF7CA03418FF7ACB0064BA77 /* include */,
+				AF7CA11618FF7ACC0064BA77 /* src */,
+			);
+			name = "Cinder-AvfImpl";
+			path = "../../../blocks/Cinder-AvfImpl";
+			sourceTree = "<group>";
+		};
+		AF7CA03418FF7ACB0064BA77 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AF7CA03518FF7ACB0064BA77 /* Avf.h */,
+				AF7CA03718FF7ACB0064BA77 /* AvfUtils.h */,
+				AF7CA03818FF7ACB0064BA77 /* AvfWriter.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AF7CA11618FF7ACC0064BA77 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AF7CA11718FF7ACC0064BA77 /* Avf.mm */,
+				AF7CA11918FF7ACC0064BA77 /* AvfUtils.mm */,
+				AF7CA11A18FF7ACC0064BA77 /* AvfWriter.mm */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E6EE5311190331B900AA039F /* Cinder-CocoaTouchGestures-Block */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE532B190331B900AA039F /* src */,
+			);
+			name = "Cinder-CocoaTouchGestures-Block";
+			path = "../../../blocks/Cinder-CocoaTouchGestures-Block";
+			sourceTree = "<group>";
+		};
+		E6EE532B190331B900AA039F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE532C190331B900AA039F /* CocoaTouchGestures.h */,
+				E6EE532D190331B900AA039F /* CocoaTouchGestures.mm */,
+				E6EE532E190331B900AA039F /* SwipeGestureRecognizerInfo.h */,
+				E6EE532F190331B900AA039F /* TapGestureRecognizerInfo.h */,
+				E6EE5330190331B900AA039F /* UIView+UIView_Gestures.h */,
+				E6EE5331190331B900AA039F /* UIView+UIView_Gestures.mm */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AllInOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AllInOne" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllInOne;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AllInOne;
+			productReference = 8D1107320486CEB800E47090 /* AllInOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF7C9D4818FF5F460064BA77 /* AllInOneIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7C9D5718FF5F460064BA77 /* Build configuration list for PBXNativeTarget "AllInOneIOS" */;
+			buildPhases = (
+				AF7C9D4918FF5F460064BA77 /* Resources */,
+				AF7C9D4B18FF5F460064BA77 /* Sources */,
+				AF7C9D4D18FF5F460064BA77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllInOneIOS;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AllInOne;
+			productReference = AF7C9D5A18FF5F460064BA77 /* AllInOneIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AllInOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AllInOne */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* AllInOne */,
+				AF7C9D4818FF5F460064BA77 /* AllInOneIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E633B9A01901A12D00F08016 /* AllInOneApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7C9D4918FF5F460064BA77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E613CED5190024F9005E2E66 /* CinderApp_ios.png in Resources */,
+				E633B9A21901A14B00F08016 /* AllInOne_ios.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7CA1E818FF7ACC0064BA77 /* Avf.mm in Sources */,
+				AF7CA1EE18FF7ACC0064BA77 /* AvfWriter.mm in Sources */,
+				180068EDD6C646C0B3F8308A /* AllInOneApp.cpp in Sources */,
+				AF7CA1EC18FF7ACC0064BA77 /* AvfUtils.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7C9D4B18FF5F460064BA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7CA1E918FF7ACC0064BA77 /* Avf.mm in Sources */,
+				AF7CA1EF18FF7ACC0064BA77 /* AvfWriter.mm in Sources */,
+				AF7C9D4C18FF5F460064BA77 /* AllInOneApp.cpp in Sources */,
+				AF7CA1ED18FF7ACC0064BA77 /* AvfUtils.mm in Sources */,
+				E6EE5345190331B900AA039F /* CocoaTouchGestures.mm in Sources */,
+				E6EE5347190331B900AA039F /* UIView+UIView_Gestures.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF7C9D5818FF5F460064BA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vladimir Gusev (3W2SEYSLJQ)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AllInOneIOS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Info-IOS.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../blocks/QuickTime/lib/msw\"",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder-iphone_d.a\"",
+					"-lz",
+					"\"$(CINDER_PATH)/lib/libcinder-iphone-sim_d.a\"",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = AllInOneIOS;
+				SDKROOT = iphoneos;
+				SYMROOT = ./build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF7C9D5918FF5F460064BA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vladimir Gusev (3W2SEYSLJQ)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AllInOneIOS_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Info-IOS.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../blocks/QuickTime/lib/msw\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder-iphone_d.a\"",
+					"-lz",
+					"\"$(CINDER_PATH)/lib/libcinder-iphone-sim_d.a\"",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = AllInOneIOS;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AllInOne_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../blocks/QuickTime/lib/msw\"",
+				);
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = AllInOne;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AllInOne_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../blocks/QuickTime/lib/msw\"",
+				);
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = AllInOne;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = ../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vladimir Gusev (3W2SEYSLJQ)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../../include ../../../src";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = ../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vladimir Gusev (3W2SEYSLJQ)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../../include ../../../src";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7C9D5718FF5F460064BA77 /* Build configuration list for PBXNativeTarget "AllInOneIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7C9D5818FF5F460064BA77 /* Debug */,
+				AF7C9D5918FF5F460064BA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AllInOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AllInOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

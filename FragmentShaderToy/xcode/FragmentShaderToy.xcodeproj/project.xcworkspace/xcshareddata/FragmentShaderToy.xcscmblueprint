@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : 0,
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3C82C02A-1AEC-499F-B180-481CEEA6D44D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : "CinderEight",
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FragmentShaderToy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FragmentShaderToy\/xcode\/FragmentShaderToy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cinder\/Cinder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4B458D0D225ED63FAE0155615993B7D3ECE020"
+    }
+  ]
+}

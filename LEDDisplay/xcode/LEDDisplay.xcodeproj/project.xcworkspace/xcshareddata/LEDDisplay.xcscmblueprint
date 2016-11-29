@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : 0,
+    "3C3EB8FC51715DA4D41BF6F7EB8E01BDCE8473B8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B116067C-D140-4CEA-B9CC-831B33D9C77E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07" : "CinderEight\/",
+    "3C3EB8FC51715DA4D41BF6F7EB8E01BDCE8473B8" : "blocks\/UnionJack\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LEDDisplay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LEDDisplay\/xcode\/LEDDisplay.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D595C21DFA5D4EC5221D6427FA56FF0E2C67E07"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/drewish\/UnionJack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3C3EB8FC51715DA4D41BF6F7EB8E01BDCE8473B8"
+    }
+  ]
+}

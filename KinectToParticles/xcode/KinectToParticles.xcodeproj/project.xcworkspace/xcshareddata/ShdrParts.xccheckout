@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0DA246BB-0539-400D-B462-F6BF6DAD7196</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ShdrParts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4DACE280-5919-491F-905A-82A9150122AD</key>
+		<string>https://github.com/cinder/Cinder-Kinect.git</string>
+		<key>C9E0C378-5997-416E-BC03-E03D04D34B7C</key>
+		<string>https://github.com/eighteight/CinderEight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GLSLParticles/xcode/ShdrParts.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4DACE280-5919-491F-905A-82A9150122AD</key>
+		<string>../../../../../blocks/Cinder-Freenect</string>
+		<key>C9E0C378-5997-416E-BC03-E03D04D34B7C</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eighteight/CinderEight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C9E0C378-5997-416E-BC03-E03D04D34B7C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4DACE280-5919-491F-905A-82A9150122AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cinder-Freenect</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C9E0C378-5997-416E-BC03-E03D04D34B7C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CinderEight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

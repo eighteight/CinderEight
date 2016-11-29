@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		2F49DF97E773493888967CB2 /* libfmodex.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AA4A18378FA4499959A1D9D /* libfmodex.dylib */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9B138513DFCE47238C58D1EE /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 86547F85D6B942CEB3FB14DE /* CinderApp.icns */; };
+		A9009634C4574797A7A28333 /* AudioEngineApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB68AA698B6C4A488D75C789 /* AudioEngineApp.cpp */; };
+		AFF2A5421A004EF700A103E0 /* AudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2A53F1A004EF700A103E0 /* AudioDevice.cpp */; };
+		AFF2A5431A004EF700A103E0 /* AudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2A5401A004EF700A103E0 /* AudioEngine.cpp */; };
+		AFF2A5441A004EF700A103E0 /* LineInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2A5411A004EF700A103E0 /* LineInput.cpp */; };
+		AFF2A5621A00506100A103E0 /* MidiHub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2A5551A00506100A103E0 /* MidiHub.cpp */; };
+		AFF2A5631A00506100A103E0 /* MidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2A5571A00506100A103E0 /* MidiIn.cpp */; };
+		AFF2A5641A00506100A103E0 /* MidiMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2A5591A00506100A103E0 /* MidiMessage.cpp */; };
+		AFF2A5651A00506100A103E0 /* MidiOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2A55B1A00506100A103E0 /* MidiOut.cpp */; };
+		AFF2A5661A00506100A103E0 /* RtMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2A55E1A00506100A103E0 /* RtMidi.cpp */; };
+		AFF2A56C1A00519100A103E0 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF2A56B1A00519100A103E0 /* CoreMIDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F65413EE93B4470D9E48771C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				2F49DF97E773493888967CB2 /* libfmodex.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0AA4A18378FA4499959A1D9D /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = "../../../../Cinder-master/blocks/FMOD/lib/macosx/libfmodex.dylib"; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		24D6FB6C13344D80BF5F7332 /* AudioEngine_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = AudioEngine_Prefix.pch; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		86547F85D6B942CEB3FB14DE /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* AudioEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E459A78B2EA4201AA09B1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF2A53F1A004EF700A103E0 /* AudioDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioDevice.cpp; sourceTree = "<group>"; };
+		AFF2A5401A004EF700A103E0 /* AudioEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioEngine.cpp; sourceTree = "<group>"; };
+		AFF2A5411A004EF700A103E0 /* LineInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineInput.cpp; sourceTree = "<group>"; };
+		AFF2A5461A004F0200A103E0 /* Audiodevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audiodevice.h; sourceTree = "<group>"; };
+		AFF2A5471A004F0200A103E0 /* AudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEngine.h; sourceTree = "<group>"; };
+		AFF2A5481A004F0200A103E0 /* LineInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineInput.h; sourceTree = "<group>"; };
+		AFF2A5491A004F0200A103E0 /* SoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundItem.h; sourceTree = "<group>"; };
+		AFF2A54A1A004F0200A103E0 /* AudioEngineApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioEngineApp.h; path = ../include/AudioEngineApp.h; sourceTree = "<group>"; };
+		AFF2A54C1A004F0200A103E0 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		AFF2A54D1A004F0200A103E0 /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		AFF2A5521A00506100A103E0 /* MidiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiConstants.h; sourceTree = "<group>"; };
+		AFF2A5531A00506100A103E0 /* MidiExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiExceptions.h; sourceTree = "<group>"; };
+		AFF2A5541A00506100A103E0 /* MidiHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiHeaders.h; sourceTree = "<group>"; };
+		AFF2A5551A00506100A103E0 /* MidiHub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiHub.cpp; sourceTree = "<group>"; };
+		AFF2A5561A00506100A103E0 /* MidiHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiHub.h; sourceTree = "<group>"; };
+		AFF2A5571A00506100A103E0 /* MidiIn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiIn.cpp; sourceTree = "<group>"; };
+		AFF2A5581A00506100A103E0 /* MidiIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiIn.h; sourceTree = "<group>"; };
+		AFF2A5591A00506100A103E0 /* MidiMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiMessage.cpp; sourceTree = "<group>"; };
+		AFF2A55A1A00506100A103E0 /* MidiMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiMessage.h; sourceTree = "<group>"; };
+		AFF2A55B1A00506100A103E0 /* MidiOut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiOut.cpp; sourceTree = "<group>"; };
+		AFF2A55C1A00506100A103E0 /* MidiOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiOut.h; sourceTree = "<group>"; };
+		AFF2A55D1A00506100A103E0 /* RtError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtError.h; sourceTree = "<group>"; };
+		AFF2A55E1A00506100A103E0 /* RtMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtMidi.cpp; sourceTree = "<group>"; };
+		AFF2A55F1A00506100A103E0 /* RtMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtMidi.h; sourceTree = "<group>"; };
+		AFF2A56B1A00519100A103E0 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		EB68AA698B6C4A488D75C789 /* AudioEngineApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = AudioEngineApp.cpp; path = ../src/AudioEngineApp.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				AFF2A56C1A00519100A103E0 /* CoreMIDI.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2A54E1A00506100A103E0 /* Cinder-MIDI */,
+				D9A4CC1C22B9401B976D45F2 /* FMOD */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2A53E1A004EF700A103E0 /* AudioEngine */,
+				EB68AA698B6C4A488D75C789 /* AudioEngineApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0C4F61F12A9846F8A90DA0D8 /* macosx */ = {
+			isa = PBXGroup;
+			children = (
+				0AA4A18378FA4499959A1D9D /* libfmodex.dylib */,
+			);
+			name = macosx;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2A56B1A00519100A103E0 /* CoreMIDI.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* AudioEngine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = AudioEngine;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2A5451A004F0200A103E0 /* AudioEngine */,
+				AFF2A54A1A004F0200A103E0 /* AudioEngineApp.h */,
+				AFF2A54B1A004F0200A103E0 /* events */,
+				AFF2A54D1A004F0200A103E0 /* Resources.h */,
+				24D6FB6C13344D80BF5F7332 /* AudioEngine_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86547F85D6B942CEB3FB14DE /* CinderApp.icns */,
+				8E459A78B2EA4201AA09B1F1 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42624C0A34E348DFB4FDF476 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0C4F61F12A9846F8A90DA0D8 /* macosx */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		AFF2A53E1A004EF700A103E0 /* AudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2A53F1A004EF700A103E0 /* AudioDevice.cpp */,
+				AFF2A5401A004EF700A103E0 /* AudioEngine.cpp */,
+				AFF2A5411A004EF700A103E0 /* LineInput.cpp */,
+			);
+			name = AudioEngine;
+			path = ../src/AudioEngine;
+			sourceTree = "<group>";
+		};
+		AFF2A5451A004F0200A103E0 /* AudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2A5461A004F0200A103E0 /* Audiodevice.h */,
+				AFF2A5471A004F0200A103E0 /* AudioEngine.h */,
+				AFF2A5481A004F0200A103E0 /* LineInput.h */,
+				AFF2A5491A004F0200A103E0 /* SoundItem.h */,
+			);
+			name = AudioEngine;
+			path = ../include/AudioEngine;
+			sourceTree = "<group>";
+		};
+		AFF2A54B1A004F0200A103E0 /* events */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2A54C1A004F0200A103E0 /* Events.h */,
+			);
+			name = events;
+			path = ../include/events;
+			sourceTree = "<group>";
+		};
+		AFF2A54E1A00506100A103E0 /* Cinder-MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2A54F1A00506100A103E0 /* lib */,
+				AFF2A5521A00506100A103E0 /* MidiConstants.h */,
+				AFF2A5531A00506100A103E0 /* MidiExceptions.h */,
+				AFF2A5541A00506100A103E0 /* MidiHeaders.h */,
+				AFF2A5551A00506100A103E0 /* MidiHub.cpp */,
+				AFF2A5561A00506100A103E0 /* MidiHub.h */,
+				AFF2A5571A00506100A103E0 /* MidiIn.cpp */,
+				AFF2A5581A00506100A103E0 /* MidiIn.h */,
+				AFF2A5591A00506100A103E0 /* MidiMessage.cpp */,
+				AFF2A55A1A00506100A103E0 /* MidiMessage.h */,
+				AFF2A55B1A00506100A103E0 /* MidiOut.cpp */,
+				AFF2A55C1A00506100A103E0 /* MidiOut.h */,
+				AFF2A55D1A00506100A103E0 /* RtError.h */,
+				AFF2A55E1A00506100A103E0 /* RtMidi.cpp */,
+				AFF2A55F1A00506100A103E0 /* RtMidi.h */,
+			);
+			name = "Cinder-MIDI";
+			path = "../blocks/Cinder-MIDI";
+			sourceTree = "<group>";
+		};
+		AFF2A54F1A00506100A103E0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D9A4CC1C22B9401B976D45F2 /* FMOD */ = {
+			isa = PBXGroup;
+			children = (
+				42624C0A34E348DFB4FDF476 /* lib */,
+			);
+			name = FMOD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AudioEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AudioEngine" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				F65413EE93B4470D9E48771C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioEngine;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AudioEngine;
+			productReference = 8D1107320486CEB800E47090 /* AudioEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AudioEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AudioEngine */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* AudioEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B138513DFCE47238C58D1EE /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF2A5421A004EF700A103E0 /* AudioDevice.cpp in Sources */,
+				AFF2A5631A00506100A103E0 /* MidiIn.cpp in Sources */,
+				AFF2A5661A00506100A103E0 /* RtMidi.cpp in Sources */,
+				AFF2A5621A00506100A103E0 /* MidiHub.cpp in Sources */,
+				A9009634C4574797A7A28333 /* AudioEngineApp.cpp in Sources */,
+				AFF2A5431A004EF700A103E0 /* AudioEngine.cpp in Sources */,
+				AFF2A5641A00506100A103E0 /* MidiMessage.cpp in Sources */,
+				AFF2A5441A004EF700A103E0 /* LineInput.cpp in Sources */,
+				AFF2A5651A00506100A103E0 /* MidiOut.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AudioEngine_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/eight/repos/Cinder/CinderEight/AudioEngine/blocks/Cinder-MIDI/lib",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					"\"../../../../Cinder-master/blocks/FMOD/lib/macosx/libfmodex.dylib\"",
+				);
+				PRODUCT_NAME = AudioEngine;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AudioEngine_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/eight/repos/Cinder/CinderEight/AudioEngine/blocks/Cinder-MIDI/lib",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					"\"../../../../Cinder-master/blocks/FMOD/lib/macosx/libfmodex.dylib\"",
+				);
+				PRODUCT_NAME = AudioEngine;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../../Cinder-master";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include \"../../../../Cinder-master/blocks/FMOD/include\"";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../../Cinder-master";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include \"../../../../Cinder-master/blocks/FMOD/include\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AudioEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AudioEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
