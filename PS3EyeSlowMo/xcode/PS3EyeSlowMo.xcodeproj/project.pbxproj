@@ -43,11 +43,11 @@
 		8179652E62BB4C12BED7E593 /* libusb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libusb.h; path = "../../../blocks/Cinder-PS3Eye/src/libusb.h"; sourceTree = "<group>"; };
 		89D530CCA2A6473C8BCA8B68 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		8D1107320486CEB800E47090 /* PS3EyeSlowMo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS3EyeSlowMo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFCE417B19D6FD9800C32FFF /* ConcurrentQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentQueue.h; sourceTree = "<group>"; };
-		AFCE417D19D6FF7300C32FFF /* CinderVideoStreamServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinderVideoStreamServer.h; sourceTree = "<group>"; };
 		EAC97FB6E46243E2B208B128 /* PS3EyeSlowMoApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = PS3EyeSlowMoApp.cpp; path = ../src/PS3EyeSlowMoApp.cpp; sourceTree = "<group>"; };
 		F060578D46A049D88ED4CFCD /* PS3EyeSlowMo_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = PS3EyeSlowMo_Prefix.pch; sourceTree = "<group>"; };
 		F97ECD6705414BE7A84E6FEC /* ps3eye.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = ps3eye.cpp; path = "../../../blocks/Cinder-PS3Eye/src/ps3eye.cpp"; sourceTree = "<group>"; };
+		FCCB91DC1ED98817001FAC27 /* CinderVideoStreamServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CinderVideoStreamServer.h; path = ../include/CinderVideoStreamServer.h; sourceTree = "<group>"; };
+		FCCB91DD1ED98817001FAC27 /* ConcurrentQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConcurrentQueue.h; path = ../include/ConcurrentQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				AFCE417D19D6FF7300C32FFF /* CinderVideoStreamServer.h */,
-				AFCE417B19D6FD9800C32FFF /* ConcurrentQueue.h */,
+				FCCB91DC1ED98817001FAC27 /* CinderVideoStreamServer.h */,
+				FCCB91DD1ED98817001FAC27 /* ConcurrentQueue.h */,
 				EAC97FB6E46243E2B208B128 /* PS3EyeSlowMoApp.cpp */,
 			);
 			name = Source;
@@ -258,6 +258,7 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CINDER_PATH = ../../..;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -271,6 +272,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
@@ -286,6 +288,7 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CINDER_PATH = ../../..;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -300,6 +303,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (

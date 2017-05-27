@@ -160,13 +160,13 @@ void VR360VideoIosApp::setup()
     
     _sphere = gl::Batch::create ( geom::Sphere().subdivisions(64).radius(32), gl::getStockShader( gl::ShaderDef().texture() ) );
     
-    _video = qtime::MovieGl::create( getAssetPath( "BVGG6623.mp4" ) );
+    _video = qtime::MovieGl::create( getAssetPath( "Image_2.mov"/* "BVGG6623.mp4" */) );
     _video->setLoop();
     _video->play();
 
     _camera.setEyePoint( vec3( 0 ) );
 
-    _texture = gl::Texture::create(loadImage(loadAsset("insta.png")));
+    _texture = gl::Texture::create(loadImage(loadAsset("test_shot0161.png")));
     
     // Load and compile the shaders.
     createShaders();
@@ -223,7 +223,7 @@ void VR360VideoIosApp::resize()
 
 void VR360VideoIosApp::update ( )
 {
-    //if ( _video->checkNewFrame() ) _texture = _video->getTexture();//.loadTopDown();
+    if ( _video->checkNewFrame() ) _texture = _video->getTexture();//.loadTopDown();
 
     _camera.setOrientation( MotionManager::getRotation( getOrientation() ) );
     return;

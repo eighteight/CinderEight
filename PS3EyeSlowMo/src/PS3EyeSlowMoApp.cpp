@@ -1,4 +1,4 @@
-#include "cinder/app/AppNative.h"
+#include "cinder/app/App.h"
 #include "cinder/app/RendererGl.h"
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Texture.h"
@@ -67,7 +67,7 @@ static void yuv422_to_rgba(const uint8_t *yuv_src, const int stride, uint8_t *ds
     }
 }
 
-class PS3EyeSlowMoApp : public AppNative {
+class PS3EyeSlowMoApp : public App {
 public:
     void setup();
     void mouseDown( MouseEvent event );
@@ -243,8 +243,8 @@ void PS3EyeSlowMoApp::update()
             
             size_t dataSize = os->tell();
 
-            Buffer buf( dataSize );
-            memcpy(buf.getData(), data, dataSize);
+            BufferRef buf = Buffer::create(dataSize );
+            memcpy(buf->getData(), data, dataSize);
             surfaceVector.push_back(Surface( loadImage( DataSourceBuffer::create(buf)), SurfaceConstraintsDefault(), false ));
         }
         mCamFrameCount += isNewFrame ? 1 : 0;
@@ -286,5 +286,5 @@ void PS3EyeSlowMoApp::draw()
     mParams->draw();
 }
 
-CINDER_APP_NATIVE( PS3EyeSlowMoApp, RendererGl )
+CINDER_APP( PS3EyeSlowMoApp, RendererGl )
 
