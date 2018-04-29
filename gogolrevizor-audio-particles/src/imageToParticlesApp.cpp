@@ -3,7 +3,7 @@
 #include "cinder/gl/Vbo.h"
 #include "cinder/gl/Texture.h"
 #include "cinder/gl/GlslProg.h"
-#include "cinder/ArcBall.h"
+#include "cinder/Arcball.h"
 #include "cinder/Quaternion.h"
 #include "cinder/Camera.h"
 #include "cinder/Capture.h"
@@ -290,7 +290,7 @@ void img2Parts::setup()
     
     audioSetup();
     
-    sServer.setName("DREAMWORKS");
+    sServer.setName("OPTIMISTIC");
     
     listener.setup( 3000 );
     

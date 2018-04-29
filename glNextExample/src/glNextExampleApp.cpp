@@ -1,4 +1,4 @@
-#include "cinder/app/AppNative.h"
+#include "cinder/app/App.h"
 #include "cinder/app/RendererGl.h"
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Batch.h"
@@ -9,7 +9,7 @@ using namespace ci;
 using namespace ci::app;
 using namespace std;
 
-class glNextExampleApp : public AppNative {
+class glNextExampleApp : public App {
   public:
 	void setup() override;
 	void mouseDown( MouseEvent event ) override;
@@ -58,4 +58,4 @@ void glNextExampleApp::draw()
     }
 }
 
-CINDER_APP_NATIVE( glNextExampleApp, RendererGl )
+CINDER_APP ( glNextExampleApp, RendererGl )

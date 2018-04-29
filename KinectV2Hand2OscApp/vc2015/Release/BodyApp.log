@@ -1,0 +1,87 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (BodyApp.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\eight_io\devel\cinder_0.9.1_vc2013\blocks\Cinder-KCB2-vc2015\samples\BodyApp\vc2015\..\..\..\lib\x86\KCBv2.dll
+  C:\Users\eight_io\devel\cinder_0.9.1_vc2013\blocks\Cinder-KCB2-vc2015\samples\BodyApp\vc2015\..\..\..\lib\x86\Debug\KCBv2.dll
+  2 File(s) copied
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\Kinect20.Face.dll
+  1 File(s) copied
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceAlignment.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceAlignmentColor.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceAlignmentColor27.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceDetector.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceOrientation.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceTrackingColor27.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\ExpressionRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\EyeLeftRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\EyeRightRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\FacialHairIRRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\FacialHairRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\Feature.config
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\GlassesIRRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\GlassesRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\LookingAwayRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\MouthMovedRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\MouthOpenRandomForest.model
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\NuiExpressionModelManifest.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\3DModel.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\3DModel_globalPCA.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_F.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_HLP.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_HRP.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_F.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HLP.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\PCAMaskBias.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\front.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\Front.p.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\front_nose.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\left.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\left.p.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\left_nose.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\right.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\right.p.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\right_nose.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\EyeClose.pra
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\EyeClose.wgh
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\LeftCloseRightOpen44Flip.pra
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\LeftCloseRightOpen44Flip.wgh
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\LeftOpenRightClose44Flip.pra
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\LeftOpenRightClose44Flip.wgh
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\close.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\close.p.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\lopen.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\lopen.p.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\MeanShapes.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_appearance_classifier.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_shape_classifier.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\front.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\front.p.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\left.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\left.p.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\right.mod.bin
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\right.p.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt
+  C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\fullMeanHead60_tri.ply
+  57 File(s) copied
+  Osc.cpp
+  Kinect2.cpp
+  KinectV2Hand2OscApp.cpp
+..\..\..\src\Kinect2.cpp(2317): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\Kinect2.cpp(2322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\Kinect2.cpp(2327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\..\OSC\src\cinder\osc\Osc.cpp(1738): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+..\..\..\..\OSC\src\cinder\osc\Osc.cpp(1755): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\..\OSC\src\cinder\osc\Osc.cpp(1757): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\src\KinectV2Hand2OscApp.cpp(74): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\src\KinectV2Hand2OscApp.cpp(144): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\src\KinectV2Hand2OscApp.cpp(157): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+..\src\KinectV2Hand2OscApp.cpp(226): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  All 7000 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BodyApp.vcxproj -> C:\Users\eight_io\devel\cinder_0.9.1_vc2013\blocks\Cinder-KCB2-vc2015\samples\BodyApp\vc2015\bin\KinectV2Hand2Osc.exe

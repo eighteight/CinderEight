@@ -789,7 +789,7 @@
 		F0EC255508BBC88B006E9215 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CINDER_PATH = ../../..;
+				CINDER_PATH = ../../../../cinder_0.8.5_mac;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -826,7 +826,7 @@
 		F0EC255608BBC88B006E9215 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CINDER_PATH = ../../..;
+				CINDER_PATH = ../../../../cinder_0.8.5_mac;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COMBINE_HIDPI_IMAGES = YES;

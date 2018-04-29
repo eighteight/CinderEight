@@ -71,7 +71,7 @@ protected:
 void DeferredRenderingApp::prepareSettings( Settings *settings )
 {
 	settings->setWindowSize( APP_RES_HORIZONTAL, APP_RES_VERTICAL );
-    settings->setBorderless( true );
+    settings->setBorderless( false );
 	settings->setFrameRate( 1000.0f );			//the more the merrier!
 	settings->setResizable( false );			//this isn't going to be resizable
     settings->setFullScreen( false );

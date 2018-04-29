@@ -21,6 +21,7 @@
 		AFCE418019D7091400C32FFF /* Basic.frag in Resources */ = {isa = PBXBuildFile; fileRef = AFCE417E19D7091400C32FFF /* Basic.frag */; };
 		AFCE418319D7093600C32FFF /* Basic.vert in Resources */ = {isa = PBXBuildFile; fileRef = AFCE418219D7093600C32FFF /* Basic.vert */; };
 		F87D75894A7E4F548FE56EC6 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9B1A8B7F3BA34BD0898CA146 /* CinderApp.icns */; };
+		FCBC1C3D1ED9D3440065608D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBC1C3C1ED9D3440065608D /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		AFCE418219D7093600C32FFF /* Basic.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Basic.vert; path = ../assets/Basic.vert; sourceTree = "<group>"; };
 		C853FA5380ED4196A2D60FAD /* glNextExample_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = glNextExample_Prefix.pch; sourceTree = "<group>"; };
 		DD5936B39B1B43AEB643EFF9 /* glNextExampleApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = glNextExampleApp.cpp; path = ../src/glNextExampleApp.cpp; sourceTree = "<group>"; };
+		FCBC1C3C1ED9D3440065608D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../../../../System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				FCBC1C3D1ED9D3440065608D /* IOKit.framework in Frameworks */,
 				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
 				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
 				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
@@ -95,6 +98,7 @@
 				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
 				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
 				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				FCBC1C3C1ED9D3440065608D /* IOKit.framework */,
 				0091D8F80E81B9330029341E /* OpenGL.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
@@ -246,6 +250,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
@@ -272,6 +277,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";

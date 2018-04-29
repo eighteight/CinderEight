@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "09AE5A16A86A0B43B300C5BFAA487DB2333CFB1E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0E1A2EFF0A48C01857077D1AD3E6442997DB3546" : 0,
+    "09AE5A16A86A0B43B300C5BFAA487DB2333CFB1E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B8622ECD-CB10-4DFC-9624-C57101BC4343",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0E1A2EFF0A48C01857077D1AD3E6442997DB3546" : "blocks\/Cinder-PS3Eye\/",
+    "09AE5A16A86A0B43B300C5BFAA487DB2333CFB1E" : "CinderEight\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PS3EyeSlowMo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Procession\/xcode\/PS3EyeSlowMo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:eighteight\/CinderEight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09AE5A16A86A0B43B300C5BFAA487DB2333CFB1E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eighteight\/Cinder-PS3Eye.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0E1A2EFF0A48C01857077D1AD3E6442997DB3546"
+    }
+  ]
+}
