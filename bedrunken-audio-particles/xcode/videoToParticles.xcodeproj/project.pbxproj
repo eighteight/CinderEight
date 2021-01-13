@@ -285,7 +285,8 @@
 					"-lcurl",
 				);
 				PRODUCT_NAME = videoToParticles;
-				SDKROOT = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -316,8 +317,9 @@
 					"-lcurl",
 				);
 				PRODUCT_NAME = videoToParticles;
-				SDKROOT = "";
+				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = YES;
+				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

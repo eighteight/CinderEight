@@ -32,7 +32,7 @@ public:
 void AssimpApp::setup()
 {
 	using namespace model;
-	mSkeletalMesh = SkeletalMesh::create( AssimpLoader( loadAsset( "TurbochiFromXSI.dae" ) ) );
+	mSkeletalMesh = SkeletalMesh::create( AssimpLoader( loadAsset( "Capoeira.dae" ) ) );
 	mRotationRadius = 20.0f;
 	mTouchHorizontalPos = 0;
     

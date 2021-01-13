@@ -27,6 +27,7 @@ using namespace std;
  Press any key to reload the last shader from disk.
  */
 
+#include "cinderSyphon.h"
 class FragmentShaderToyApp : public App {
 public:
     void prepareSettings( Settings *settings );
@@ -65,8 +66,8 @@ void FragmentShaderToyApp::setup()
     
     // load fragment shader from the provided path
     // we always use the same vertex shader, so it isn't specified
-    loadShader( getAssetPath( "moon-surface.fs" ) );
-    //loadShader( getAssetPath( "clouds.fs" ) );
+    loadShader( getAssetPath( "matrix.fs" ) );
+    //loadShader( getAssetPath( "moon-surface.fs" ) );
     // create a rectangle to be drawn with our shader program
     // default is from -0.5 to 0.5, so we scale by 2 to get -1.0 to 1.0
     mMesh = gl::VboMesh::create( geom::Rect(Rectf (-1.f, -1.f, 1.0f, 1.0f))/*.scale( vec2( 2, 2 ) )*/);

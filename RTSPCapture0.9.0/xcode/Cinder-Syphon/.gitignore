@@ -1,0 +1,14 @@
+.DS_Store
+*.o
+*.app
+
+*.obj
+*.dll
+*.pdb
+*.exe
+
+.sconsign.dblite
+*.sw[a-z]
+
+Syphon-BasicApp
+SyphonServerDirectoryApp

@@ -22,7 +22,28 @@
 		AF99A73F1C7D5B6C009E8A33 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF99A73E1C7D5B6C009E8A33 /* IOKit.framework */; };
 		E672721A1ACCC35E00C64566 /* clouds.fs in Resources */ = {isa = PBXBuildFile; fileRef = E67272191ACCC35E00C64566 /* clouds.fs */; };
 		E6D7C7391A1CFA7600BECEB2 /* moon-surface.fs in Resources */ = {isa = PBXBuildFile; fileRef = E6D7C7381A1CFA7600BECEB2 /* moon-surface.fs */; };
+		FC192AE425209EEC00BE379A /* matrix.fs in Resources */ = {isa = PBXBuildFile; fileRef = FC192AE325209EEC00BE379A /* matrix.fs */; };
+		FC192AE625209F6800BE379A /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC192AE525209F3F00BE379A /* IOSurface.framework */; };
+		FC192CC22520AB8700BE379A /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC192C3C2520AB8600BE379A /* Syphon.framework */; };
+		FC192CC32520AB8700BE379A /* SyphonNameboundClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FC192C3D2520AB8600BE379A /* SyphonNameboundClient.m */; };
+		FC192CEE2520AB8700BE379A /* syphonServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC192C842520AB8600BE379A /* syphonServer.mm */; };
+		FC192CEF2520AB8700BE379A /* syphonServerDirectory.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC192C862520AB8600BE379A /* syphonServerDirectory.mm */; };
+		FC192CF02520AB8700BE379A /* syphonClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC192C872520AB8600BE379A /* syphonClient.mm */; };
+		FC192CF22520ACFD00BE379A /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC192C3C2520AB8600BE379A /* Syphon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC192CF12520ACF000BE379A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC192CF22520ACFD00BE379A /* Syphon.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		006D720219952D00008149E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -49,6 +70,18 @@
 		E67272191ACCC35E00C64566 /* clouds.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = clouds.fs; sourceTree = "<group>"; };
 		E6D7C7381A1CFA7600BECEB2 /* moon-surface.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = "moon-surface.fs"; sourceTree = "<group>"; };
 		F5CDB6A0359A48A2B35CAA79 /* FragmentShaderToy_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = FragmentShaderToy_Prefix.pch; sourceTree = "<group>"; };
+		FC192AE325209EEC00BE379A /* matrix.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = matrix.fs; sourceTree = "<group>"; };
+		FC192AE525209F3F00BE379A /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOSurface.framework; sourceTree = DEVELOPER_DIR; };
+		FC192C3C2520AB8600BE379A /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = "<group>"; };
+		FC192C3D2520AB8600BE379A /* SyphonNameboundClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyphonNameboundClient.m; sourceTree = "<group>"; };
+		FC192C3E2520AB8600BE379A /* SyphonNameboundClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyphonNameboundClient.h; sourceTree = "<group>"; };
+		FC192C832520AB8600BE379A /* cinderSyphon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cinderSyphon.h; sourceTree = "<group>"; };
+		FC192C842520AB8600BE379A /* syphonServer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = syphonServer.mm; sourceTree = "<group>"; };
+		FC192C852520AB8600BE379A /* syphonClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syphonClient.h; sourceTree = "<group>"; };
+		FC192C862520AB8600BE379A /* syphonServerDirectory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = syphonServerDirectory.mm; sourceTree = "<group>"; };
+		FC192C872520AB8600BE379A /* syphonClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = syphonClient.mm; sourceTree = "<group>"; };
+		FC192C882520AB8600BE379A /* syphonServerDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syphonServerDirectory.h; sourceTree = "<group>"; };
+		FC192C892520AB8600BE379A /* syphonServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syphonServer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +89,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC192AE625209F6800BE379A /* IOSurface.framework in Frameworks */,
 				006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */,
 				006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */,
+				FC192CC22520AB8700BE379A /* Syphon.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
 				AF99A73F1C7D5B6C009E8A33 /* IOKit.framework in Frameworks */,
@@ -76,6 +111,7 @@
 		01B97315FEAEA392516A2CEA /* Blocks */ = {
 			isa = PBXGroup;
 			children = (
+				FC192BEC2520AB8600BE379A /* Cinder-Syphon */,
 			);
 			name = Blocks;
 			sourceTree = "<group>";
@@ -91,6 +127,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC192AE525209F3F00BE379A /* IOSurface.framework */,
 				AF99A73E1C7D5B6C009E8A33 /* IOKit.framework */,
 				006D720219952D00008149E2 /* AVFoundation.framework */,
 				006D720319952D00008149E2 /* CoreMedia.framework */,
@@ -167,6 +204,7 @@
 		AF07B75D1A0A3040005076C5 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				FC192AE325209EEC00BE379A /* matrix.fs */,
 				E67272191ACCC35E00C64566 /* clouds.fs */,
 				E6D7C7381A1CFA7600BECEB2 /* moon-surface.fs */,
 				AF07B75E1A0A3040005076C5 /* default.fs */,
@@ -175,6 +213,40 @@
 			);
 			name = assets;
 			path = ../assets;
+			sourceTree = "<group>";
+		};
+		FC192BEC2520AB8600BE379A /* Cinder-Syphon */ = {
+			isa = PBXGroup;
+			children = (
+				FC192C3B2520AB8600BE379A /* lib */,
+				FC192C822520AB8600BE379A /* src */,
+			);
+			name = "Cinder-Syphon";
+			path = "../../../../cinder_0.9.1_mac/blocks/Cinder-Syphon";
+			sourceTree = "<group>";
+		};
+		FC192C3B2520AB8600BE379A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FC192C3C2520AB8600BE379A /* Syphon.framework */,
+				FC192C3D2520AB8600BE379A /* SyphonNameboundClient.m */,
+				FC192C3E2520AB8600BE379A /* SyphonNameboundClient.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FC192C822520AB8600BE379A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FC192C832520AB8600BE379A /* cinderSyphon.h */,
+				FC192C842520AB8600BE379A /* syphonServer.mm */,
+				FC192C852520AB8600BE379A /* syphonClient.h */,
+				FC192C862520AB8600BE379A /* syphonServerDirectory.mm */,
+				FC192C872520AB8600BE379A /* syphonClient.mm */,
+				FC192C882520AB8600BE379A /* syphonServerDirectory.h */,
+				FC192C892520AB8600BE379A /* syphonServer.h */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +259,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				FC192CF12520ACF000BE379A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -204,16 +277,18 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1170;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FragmentShaderToy" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				ja,
+				fr,
+				en,
+				Base,
+				de,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* FragmentShaderToy */;
 			projectDirPath = "";
@@ -230,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E672721A1ACCC35E00C64566 /* clouds.fs in Resources */,
+				FC192AE425209EEC00BE379A /* matrix.fs in Resources */,
 				06E2B8EA4B9E449B86D3D87A /* CinderApp.icns in Resources */,
 				E6D7C7391A1CFA7600BECEB2 /* moon-surface.fs in Resources */,
 			);
@@ -242,7 +318,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC192CEE2520AB8700BE379A /* syphonServer.mm in Sources */,
+				FC192CEF2520AB8700BE379A /* syphonServerDirectory.mm in Sources */,
 				9B28209DB45E469F9031EB05 /* FragmentShaderToyApp.cpp in Sources */,
+				FC192CC32520AB8700BE379A /* SyphonNameboundClient.m in Sources */,
+				FC192CF02520AB8700BE379A /* syphonClient.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +333,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CINDER_PATH = ../../..;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(CINDER_PATH)/blocks/Cinder-Syphon/lib";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -269,6 +352,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = FragmentShaderToy;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
@@ -279,9 +363,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CINDER_PATH = ../../..;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(CINDER_PATH)/blocks/Cinder-Syphon/lib";
 				GCC_FAST_MATH = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
@@ -296,6 +383,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = FragmentShaderToy;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SYMROOT = ./build;
@@ -307,14 +395,39 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = x86_64;
 				CINDER_PATH = ../../..;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
 			};
@@ -324,11 +437,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = x86_64;
 				CINDER_PATH = ../../..;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
