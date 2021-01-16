@@ -22,6 +22,7 @@
 		FC006BBE25AA6B65003002F5 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC006BBD25AA6B65003002F5 /* IOSurface.framework */; };
 		FC006BC125AA6B8D003002F5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC006BC025AA6B8D003002F5 /* CoreMedia.framework */; };
 		FC006BC925AB16C1003002F5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC006BC825AB16C1003002F5 /* libz.tbd */; };
+		FC185E6425B3876B002E80E1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC185E6325B3876B002E80E1 /* README.md */; };
 		FC6AFB6C25AF919800A4EB07 /* libopencv_photo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AFB4525AF919800A4EB07 /* libopencv_photo.a */; };
 		FC6AFB6D25AF919800A4EB07 /* libopencv_video.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AFB4625AF919800A4EB07 /* libopencv_video.dylib */; };
 		FC6AFB6F25AF919800A4EB07 /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AFB4825AF919800A4EB07 /* libopencv_calib3d.a */; };
@@ -94,6 +95,7 @@
 		FC006BBD25AA6B65003002F5 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 		FC006BC025AA6B8D003002F5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		FC006BC825AB16C1003002F5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FC185E6325B3876B002E80E1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FC6AFA9325AF919700A4EB07 /* CinderOpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinderOpenCV.h; sourceTree = "<group>"; };
 		FC6AFB4525AF919800A4EB07 /* libopencv_photo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_photo.a; sourceTree = "<group>"; };
 		FC6AFB4625AF919800A4EB07 /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_video.dylib; sourceTree = "<group>"; };
@@ -388,6 +390,7 @@
 		29B97314FDCFA39411CA2CEA /* ocvCapture */ = {
 			isa = PBXGroup;
 			children = (
+				FC185E6325B3876B002E80E1 /* README.md */,
 				01B97315FEAEA392516A2CEA /* Blocks */,
 				29B97315FDCFA39411CA2CEA /* Headers */,
 				080E96DDFE201D6D7F000001 /* Source */,
@@ -885,6 +888,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						LastSwiftMigration = 1230;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RTSPCapture0.9.0" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -911,6 +919,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC185E6425B3876B002E80E1 /* README.md in Resources */,
 				E7E6DAE698D8400381F17372 /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -937,6 +946,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CINDER_PATH = ../../../../cinder_0.9.0_mac;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -955,12 +965,15 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../OpenCV/lib/macosx\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				OTHER_LIBTOOLFLAGS = "-L/usr/local/opt/opencv@2/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = org.libcinder.ocvCapture;
 				PRODUCT_NAME = RTSPCapture0.9.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = ./build;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../../include \"$(SRCROOT)/../OpenCV/include\"";
 				VALID_ARCHS = x86_64;
@@ -972,6 +985,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CINDER_PATH = ../../../../cinder_0.9.0_mac;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -991,6 +1005,7 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../OpenCV/lib/macosx\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OTHER_LDFLAGS = (
@@ -1001,6 +1016,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.libcinder.ocvCapture;
 				PRODUCT_NAME = RTSPCapture0.9.0;
 				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = ./build;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../../include \"$(SRCROOT)/../OpenCV/include\"";
 				VALID_ARCHS = x86_64;
