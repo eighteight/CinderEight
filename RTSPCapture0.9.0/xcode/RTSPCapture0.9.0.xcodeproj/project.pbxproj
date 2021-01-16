@@ -12,7 +12,7 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
-		0FF23FEE7F994C33B8328270 /* ocvCaptureApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1B8631718174E9880FF03AD /* ocvCaptureApp.cpp */; };
+		0FF23FEE7F994C33B8328270 /* RTSPCaptureApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1B8631718174E9880FF03AD /* RTSPCaptureApp.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -22,7 +22,7 @@
 		FC006BBE25AA6B65003002F5 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC006BBD25AA6B65003002F5 /* IOSurface.framework */; };
 		FC006BC125AA6B8D003002F5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC006BC025AA6B8D003002F5 /* CoreMedia.framework */; };
 		FC006BC925AB16C1003002F5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC006BC825AB16C1003002F5 /* libz.tbd */; };
-		FC185E6425B3876B002E80E1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC185E6325B3876B002E80E1 /* README.md */; };
+		FC185E6625B38897002E80E1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC185E6525B38897002E80E1 /* README.md */; };
 		FC6AFB6C25AF919800A4EB07 /* libopencv_photo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AFB4525AF919800A4EB07 /* libopencv_photo.a */; };
 		FC6AFB6D25AF919800A4EB07 /* libopencv_video.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AFB4625AF919800A4EB07 /* libopencv_video.dylib */; };
 		FC6AFB6F25AF919800A4EB07 /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AFB4825AF919800A4EB07 /* libopencv_calib3d.a */; };
@@ -83,7 +83,7 @@
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* RTSPCapture0.9.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTSPCapture0.9.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13DBB098BD4415D8470C71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1B8631718174E9880FF03AD /* ocvCaptureApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = ocvCaptureApp.cpp; path = ../src/ocvCaptureApp.cpp; sourceTree = "<group>"; };
+		D1B8631718174E9880FF03AD /* RTSPCaptureApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RTSPCaptureApp.cpp; path = ../src/RTSPCaptureApp.cpp; sourceTree = "<group>"; };
 		D4C2ED3F14134E8E9A920CBA /* RTSPCapture0.9.0_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSPCapture0.9.0_Prefix.pch; sourceTree = "<group>"; };
 		D571119A966C40669C3BBEE8 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		FC006BAF25AA69C4003002F5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -95,7 +95,7 @@
 		FC006BBD25AA6B65003002F5 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 		FC006BC025AA6B8D003002F5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		FC006BC825AB16C1003002F5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		FC185E6325B3876B002E80E1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC185E6525B38897002E80E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC6AFA9325AF919700A4EB07 /* CinderOpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinderOpenCV.h; sourceTree = "<group>"; };
 		FC6AFB4525AF919800A4EB07 /* libopencv_photo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_photo.a; sourceTree = "<group>"; };
 		FC6AFB4625AF919800A4EB07 /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_video.dylib; sourceTree = "<group>"; };
@@ -346,7 +346,7 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D1B8631718174E9880FF03AD /* ocvCaptureApp.cpp */,
+				D1B8631718174E9880FF03AD /* RTSPCaptureApp.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -390,7 +390,7 @@
 		29B97314FDCFA39411CA2CEA /* ocvCapture */ = {
 			isa = PBXGroup;
 			children = (
-				FC185E6325B3876B002E80E1 /* README.md */,
+				FC185E6525B38897002E80E1 /* README.md */,
 				01B97315FEAEA392516A2CEA /* Blocks */,
 				29B97315FDCFA39411CA2CEA /* Headers */,
 				080E96DDFE201D6D7F000001 /* Source */,
@@ -919,7 +919,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC185E6425B3876B002E80E1 /* README.md in Resources */,
+				FC185E6625B38897002E80E1 /* README.md in Resources */,
 				E7E6DAE698D8400381F17372 /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -931,7 +931,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF23FEE7F994C33B8328270 /* ocvCaptureApp.cpp in Sources */,
+				0FF23FEE7F994C33B8328270 /* RTSPCaptureApp.cpp in Sources */,
 				FC8B631A25AFA3CB00B57FB0 /* syphonServerDirectory.mm in Sources */,
 				FC8B631925AFA3CB00B57FB0 /* syphonServer.mm in Sources */,
 				FC8B631B25AFA3CB00B57FB0 /* syphonClient.mm in Sources */,

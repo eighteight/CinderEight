@@ -28,7 +28,7 @@ static const float kRotationAccel = 1.5f;
 
 constexpr static const float FBO_WIDTH = 1920, FBO_HEIGHT=1080;
 
-class ocvCaptureApp : public App {
+class RTSPCaptureApp : public App {
   public:
     static void prepareSettings ( Settings* settings );
 	void setup() override;
@@ -59,14 +59,14 @@ class ocvCaptureApp : public App {
     syphonServer       mServerSyphon, mRawTextureSyphon;
 };
 
-void ocvCaptureApp::prepareSettings( Settings* settings )
+void RTSPCaptureApp::prepareSettings( Settings* settings )
 {
     settings->setResizable( false );
     settings->setWindowSize( 960, 540 );
     settings->setFrameRate(60.0f);
 }
 
-void ocvCaptureApp::setup()
+void RTSPCaptureApp::setup()
 {
     gl::enableVerticalSync( true );
     try {
@@ -96,22 +96,22 @@ void ocvCaptureApp::setup()
     mRawTextureSyphon.setName("RAW");
 }
 
-void ocvCaptureApp::resize()
+void RTSPCaptureApp::resize()
 {
     mCamPersp.setAspectRatio( getWindowAspectRatio() );
 }
 
-void ocvCaptureApp::mouseDown( MouseEvent event )
+void RTSPCaptureApp::mouseDown( MouseEvent event )
 {
     //mCamUi.mouseDown( event );
 }
 
-void ocvCaptureApp::mouseMove( MouseEvent event )
+void RTSPCaptureApp::mouseMove( MouseEvent event )
 {
     mLastMousePos = event.getPos();
 }
 
-void ocvCaptureApp::mouseDrag( MouseEvent event )
+void RTSPCaptureApp::mouseDrag( MouseEvent event )
 {
 //    Rectf r    = Rectf( getWindowWidth() / 2, 0, getWindowWidth(), getWindowHeight() );
 //    if ( r.contains( event.getPos() )) {
@@ -119,27 +119,27 @@ void ocvCaptureApp::mouseDrag( MouseEvent event )
     //}
 }
 
-void ocvCaptureApp::mouseWheel( MouseEvent event ){
+void RTSPCaptureApp::mouseWheel( MouseEvent event ){
     console() << "mouse" << event.getWheelIncrement()<<std::endl;
     mCamDistance += event.getWheelIncrement();
 }
 
-void ocvCaptureApp::rotateLeft(){
+void RTSPCaptureApp::rotateLeft(){
     float target = mRotation() > 0.0f ? mRotation() + kRotationAccel : kRotationAccel;
     timeline().apply(&mRotation, target, 2.0f, EaseOutQuad());
 }
 
-void ocvCaptureApp::rotateRight() {
+void RTSPCaptureApp::rotateRight() {
     float target = mRotation() < 0.0f ? mRotation() - kRotationAccel : -kRotationAccel;
     timeline().apply(&mRotation, target, 2.0f, EaseOutQuad());
 }
 
-//void ocvCaptureApp::mouseDrag( MouseEvent event ){
+//void RTSPCaptureApp::mouseDrag( MouseEvent event ){
 //    console() << "mouse " << event.getX()<<std::endl;
 //    rotateRight();
 //}
 
-void ocvCaptureApp::update()
+void RTSPCaptureApp::update()
 {
     if (!mVideoCapture.read(mCurrentVideoFrame)) {
             console() << "couldn't read current frame from video" << std::endl;
@@ -153,7 +153,7 @@ void ocvCaptureApp::update()
     getWindow()->setTitle("RTSP Capture: " + VideoStreamAddress + " Vladimir Gusev: "  + toString(getFrameRate()) + " fps");
 }
 
-void ocvCaptureApp::draw()
+void RTSPCaptureApp::draw()
 {
     gl::clear();
 
@@ -173,7 +173,7 @@ void ocvCaptureApp::draw()
 }
 
 
-void ocvCaptureApp::renderToFbo()
+void RTSPCaptureApp::renderToFbo()
 {
     if (!mTexture) {
         console() << "couldn't load current frame into texture" << std::endl;
@@ -198,5 +198,5 @@ void ocvCaptureApp::renderToFbo()
 }
 
 
-//CINDER_APP( ocvCaptureApp, RendererGl )
-CINDER_APP( ocvCaptureApp, RendererGl( RendererGl::Options().msaa( 16 ) ), ocvCaptureApp::prepareSettings )
+//CINDER_APP( RTSPCaptureApp, RendererGl )
+CINDER_APP( RTSPCaptureApp, RendererGl( RendererGl::Options().msaa( 16 ) ), RTSPCaptureApp::prepareSettings )

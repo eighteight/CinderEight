@@ -2,4 +2,6 @@ To compile this application, please put it inside a libcinder 0.9.0 (https://lib
 
 CINDER/WHATEVER/RTSPCapture0.9.0
 
-Where CINDER is the folder of your libcinder 0.9.0 download
+where CINDER is the folder of your libcinder 0.9.0 download
+
+To run it, adjust the VideoStreamAddress to your needs, or use a provided test server, in 
