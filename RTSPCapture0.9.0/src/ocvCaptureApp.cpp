@@ -5,6 +5,7 @@
 #include "cinder/Timeline.h"
 #include "cinder/Log.h"
 #include "cinder/CameraUi.h"
+#include "cinder/Utilities.h"
 
 #include "CinderOpenCV.h"
 
@@ -15,7 +16,7 @@ using namespace ci::app;
 using namespace std;
 
 static std::string const VideoStreamAddress = "rtsp://10.0.1.1:8554/main";
-//static std::string const VideoStreamAddress = "rtmp://192.168.0.116:1935/live/main";
+//static std::string const VideoStreamAddress = "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov";
 
 static const float kVideoSphereRadius = 32.0f;
 static const float kCamDistanceMax = 0.0f;
@@ -24,6 +25,8 @@ static const float kTargetSize = 2.0f;
 static const float kTargetDistance = 4.0f;
 static const float kHorizontalSize = kTargetSize * 4.0f;
 static const float kRotationAccel = 1.5f;
+
+constexpr static const float FBO_WIDTH = 1920, FBO_HEIGHT=1080;
 
 class ocvCaptureApp : public App {
   public:
@@ -38,6 +41,7 @@ class ocvCaptureApp : public App {
     void mouseMove( MouseEvent event ) override;
     void rotateLeft();
     void rotateRight();
+    void renderToFbo();
 	
 	gl::TextureRef		mTexture;
     gl::BatchRef        mVideoSphere;
@@ -50,17 +54,21 @@ class ocvCaptureApp : public App {
     Anim<float>         mRotation = 0.0f;
     ivec2                        mLastMousePos;
     
+    gl::FboRef          mFbo;
+
     syphonServer       mServerSyphon, mRawTextureSyphon;
 };
 
 void ocvCaptureApp::prepareSettings( Settings* settings )
 {
     settings->setResizable( false );
-    settings->setWindowSize( 1920, 1080 );
+    settings->setWindowSize( 960, 540 );
+    settings->setFrameRate(60.0f);
 }
 
 void ocvCaptureApp::setup()
 {
+    gl::enableVerticalSync( true );
     try {
         if (!mVideoCapture.open(VideoStreamAddress)) {
             console() << "couldn't open stream" << std::endl;
@@ -79,8 +87,10 @@ void ocvCaptureApp::setup()
     //mCamPersp.setEyePoint( vec3( 0.0f, 0.0f, mCamDistance ) );
     mCamUi            = CameraUi( &mCamPersp );
     mCamUi.connect( getWindow() );
-    getWindow()->setTitle("RTSP Capture. " + VideoStreamAddress + " Vladimir Gusev");
+    getWindow()->setTitle("RTSP Capture: " + VideoStreamAddress + " Vladimir Gusev");
     mVideoSphere = gl::Batch::create (geom::Sphere().subdivisions(64).radius(kVideoSphereRadius), gl::getStockShader( gl::ShaderDef().texture() ));
+    
+    mFbo = gl::Fbo::create( FBO_WIDTH, FBO_HEIGHT, gl::Fbo::Format().disableDepth().colorTexture() );
     
     mServerSyphon.setName("360");
     mRawTextureSyphon.setName("RAW");
@@ -135,24 +145,44 @@ void ocvCaptureApp::update()
             console() << "couldn't read current frame from video" << std::endl;
     }
     
+    mTexture = gl::Texture::create(fromOcv(mCurrentVideoFrame));
+    
 //    mCamPersp.setEyePoint( vec3( 0.0f, 0.0f, mCamDistance ) );
 //    mCamPersp.setOrientation(quat(1.0, 0., 0., 0.));
-
+    renderToFbo();
+    getWindow()->setTitle("RTSP Capture: " + VideoStreamAddress + " Vladimir Gusev: "  + toString(getFrameRate()) + " fps");
 }
 
 void ocvCaptureApp::draw()
 {
     gl::clear();
 
-    mTexture = gl::Texture::create(fromOcv(mCurrentVideoFrame));
-    
     if (!mTexture) {
         console() << "couldn't load current frame into texture" << std::endl;
         return;
     }
-//
-//    gl::draw(mTexture, getWindowBounds());
     
+    Rectf bounds( 0, 0, toPixels(getWindowWidth()), toPixels(getWindowHeight()) );
+    gl::ScopedMatrices scopedMatrices;
+    gl::setMatricesWindow( bounds.getSize() );
+
+    gl::draw( mFbo->getColorTexture(), Rectf( getWindowBounds() ) );
+    
+    mRawTextureSyphon.publishTexture(mTexture); //publish the screen's output
+    mServerSyphon.publishTexture(mFbo->getColorTexture(), false);
+}
+
+
+void ocvCaptureApp::renderToFbo()
+{
+    if (!mTexture) {
+        console() << "couldn't load current frame into texture" << std::endl;
+        return;
+    }
+    gl::ScopedFramebuffer spec( mFbo);
+    gl::clear();
+    gl::ScopedViewport viewport(mFbo->getSize());
+
     gl::pushMatrices();
     gl::enableDepthRead();
     gl::clear( Color( 0, 0, 0 ) );
@@ -160,14 +190,11 @@ void ocvCaptureApp::draw()
     
     gl::ScopedColor col(Color::white());
     gl::ScopedTextureBind tex0 ( mTexture );
-    
+
     //gl::rotate(mRotation /** getElapsedSeconds() * 0.1f*/, vec3(0,1,0));
     mVideoSphere->draw();
     gl::disableDepthRead();
     gl::popMatrices();
-    
-    mServerSyphon.publishScreen(); //publish the screen's output
-    mRawTextureSyphon.publishTexture(mTexture);
 }
 
 

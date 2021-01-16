@@ -47,7 +47,7 @@ class ImageSourceCvMat : public ImageSource {
 				throw ImageIoExceptionIllegalDataType();
 		}
 
-		mRowBytes = mat.step;
+		mRowBytes = (int) mat.step;
 		mData = reinterpret_cast<const uint8_t*>( mat.data );
 	}
 
